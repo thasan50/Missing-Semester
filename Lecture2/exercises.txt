@@ -1,0 +1,16 @@
+1. ls shows colorized output by default, hidden files are exposed by -a, -h shows sizes in human readable format, -l shows additional information. 
+The function is "ls -lha".
+#!/bin/bash
+func() {
+	ls -lha
+}
+2. Store current path from PWD variable into path, then cd path variable from anywhere
+#!/bin/bash
+
+marco() {
+	path="$PWD"
+}
+polo() {
+	cd "$path"
+}
+3. 

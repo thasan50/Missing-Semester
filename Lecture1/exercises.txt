@@ -1,0 +1,14 @@
+1. echo $SHELL
+/bin/bash
+2. cd /tmp; mkdir missing
+3. touch - creates a new file
+4. touch semester
+5. echo '#!/bin/sh' > semester
+echo 'curl --head --silent https://missing.csail.mit.edu' >> semester
+6. ./semester doesn't work because user doesn't have execute permission
+7. sh works because you're forcing the shell to read the file as plain text and directly interpret it. 
+8. Chmod changes the permissions of a file or directory
+9. chmod u+x semester gives the user executable permissions. 
+./semester works because we have the shebang line telling bash to use that specific interpreter.
+10. ./semester | grep "last-modified:" | sed 's/last-modified: *//' > last-modified.txt
+11. cat /sys/class/power_supply/BAT1/capacity
