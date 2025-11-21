@@ -13,4 +13,7 @@ marco() {
 polo() {
 	cd "$path"
 }
-3. 
+3. Scripts in onthree.sh and three.sh
+4. #!/bin/bash
+find . -type f -name "*.html" | xargs -d '\n' zip html_files.zip
+5. ls -ltR
