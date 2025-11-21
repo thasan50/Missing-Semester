@@ -1,0 +1,4 @@
+1.done
+2. cat ~/words | grep -E ".*a.*a.*a.*" | grep -v ".*'s$" > e2.txt;
+sed -E "s/^.*(.{2})$/\1/" e2.txt | sort | uniq -c | sort > e21.txt;
+wc -l e21.txt
