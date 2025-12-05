@@ -1,4 +1,7 @@
 1.done
-2. cat ~/words | grep -E ".*a.*a.*a.*" | grep -v ".*'s$" > e2.txt;
-sed -E "s/^.*(.{2})$/\1/" e2.txt | sort | uniq -c | sort > e21.txt;
-wc -l e21.txt
+2. cat ~/words | grep -E ".*a.*a.*a.*" | grep -v ".*'s$" > grepped.txt;
+sed -E "s/^.*(.{2})$/\1/" e2.txt | sort | uniq -c | sort > sedded.txt;
+wc -l sedded.txt
+3. It's a bad idea to do sed s/REGEX/SUBSTITUTION/ input.txt > input.txt because the redirect operator > first opens input.txt as an empty file, and then using sed to read from input.txt causes you to read from an empty file and generate no output. Basically, you're just wiping your file.
+ This should be a problem with any command that tries to write to a file after reading from it.
+If you want to do this with sed, use the -i flag which is used specifically for inserting.
