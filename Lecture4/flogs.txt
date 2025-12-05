@@ -1,0 +1,2255 @@
+ LAPTOP-THASAN (cron)[159]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+ LAPTOP-THASAN (systemd)[349]: pam_unix(systemd-user:session): session opened for user thasa(uid=1000) by thasa(uid=0)
+ LAPTOP-THASAN 50-motd-news[1720]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+ LAPTOP-THASAN 50-motd-news[1720]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+ LAPTOP-THASAN 50-motd-news[1720]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+ LAPTOP-THASAN CRON[2168]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[2168]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[2169]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[2380]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[2380]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[2381]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[2797]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[2797]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[2798]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[4253]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[4253]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[4254]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[5042]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[5042]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[5043]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[5148]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[5148]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[5149]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[5215]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[5215]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[5216]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[5306]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[5306]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[5307]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN Exception: 
+ LAPTOP-THASAN PackageKit[1170]: daemon quit
+ LAPTOP-THASAN PackageKit[1170]: daemon start
+ LAPTOP-THASAN PackageKit[2011]: daemon quit
+ LAPTOP-THASAN PackageKit[2011]: daemon start
+ LAPTOP-THASAN PackageKit[2680]: daemon quit
+ LAPTOP-THASAN PackageKit[2680]: daemon start
+ LAPTOP-THASAN PackageKit[4524]: daemon quit
+ LAPTOP-THASAN PackageKit[4524]: daemon start
+ LAPTOP-THASAN addgroup[821]: Adding group `ssl-cert' (GID 108) ...
+ LAPTOP-THASAN addgroup[821]: Selecting GID from range 100 to 999 ...
+ LAPTOP-THASAN addgroup[925]: Adding group `postfix' (GID 109) ...
+ LAPTOP-THASAN addgroup[925]: Selecting GID from range 100 to 999 ...
+ LAPTOP-THASAN addgroup[983]: Adding group `postdrop' (GID 110) ...
+ LAPTOP-THASAN addgroup[983]: Selecting GID from range 100 to 999 ...
+ LAPTOP-THASAN adduser[1439]: Adding new group `msmtp' (GID 111) ...
+ LAPTOP-THASAN adduser[1439]: Adding new user `msmtp' (UID 106) with group `msmtp' ...
+ LAPTOP-THASAN adduser[1439]: Adding system user `msmtp' (UID 106) ...
+ LAPTOP-THASAN adduser[1439]: Not creating home directory `/var/lib/msmtp'.
+ LAPTOP-THASAN adduser[1439]: Selecting GID from range 100 to 999 ...
+ LAPTOP-THASAN adduser[1439]: Selecting UID from range 100 to 999 ...
+ LAPTOP-THASAN adduser[1439]: The home dir /var/lib/msmtp you specified can't be accessed: No such file or directory
+ LAPTOP-THASAN adduser[935]: Adding new user `postfix' (UID 105) with group `postfix' ...
+ LAPTOP-THASAN adduser[935]: Adding system user `postfix' (UID 105) ...
+ LAPTOP-THASAN adduser[935]: Not creating home directory `/var/spool/postfix'.
+ LAPTOP-THASAN adduser[935]: Selecting UID from range 100 to 999 ...
+ LAPTOP-THASAN configure-instance.sh[1111]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+ LAPTOP-THASAN configure-instance.sh[1113]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+ LAPTOP-THASAN cron[159]: (CRON) INFO (Running @reboot jobs)
+ LAPTOP-THASAN cron[159]: (CRON) INFO (pidfile fd = 3)
+ LAPTOP-THASAN dbus-daemon[160]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.11' (uid=0 pid=1166 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="kernel")
+ LAPTOP-THASAN dbus-daemon[160]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.17' (uid=0 pid=2007 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="kernel")
+ LAPTOP-THASAN dbus-daemon[160]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.21' (uid=0 pid=2676 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="kernel")
+ LAPTOP-THASAN dbus-daemon[160]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.24' (uid=0 pid=4510 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="kernel")
+ LAPTOP-THASAN dbus-daemon[160]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.13' (uid=0 pid=1170 comm="/usr/libexec/packagekitd" label="kernel")
+ LAPTOP-THASAN dbus-daemon[160]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.4' (uid=0 pid=169 comm="/usr/lib/snapd/snapd" label="kernel")
+ LAPTOP-THASAN dbus-daemon[160]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+ LAPTOP-THASAN dbus-daemon[160]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+ LAPTOP-THASAN dbus-daemon[160]: [system] Successfully activated service 'org.freedesktop.timedate1'
+ LAPTOP-THASAN groupadd[1445]: group added to /etc/group: name=msmtp, GID=111
+ LAPTOP-THASAN groupadd[1445]: group added to /etc/gshadow: name=msmtp
+ LAPTOP-THASAN groupadd[1445]: new group: name=msmtp, GID=111
+ LAPTOP-THASAN groupadd[824]: group added to /etc/group: name=ssl-cert, GID=108
+ LAPTOP-THASAN groupadd[824]: group added to /etc/gshadow: name=ssl-cert
+ LAPTOP-THASAN groupadd[824]: new group: name=ssl-cert, GID=108
+ LAPTOP-THASAN groupadd[928]: group added to /etc/group: name=postfix, GID=109
+ LAPTOP-THASAN groupadd[928]: group added to /etc/gshadow: name=postfix
+ LAPTOP-THASAN groupadd[928]: new group: name=postfix, GID=109
+ LAPTOP-THASAN groupadd[986]: group added to /etc/group: name=postdrop, GID=110
+ LAPTOP-THASAN groupadd[986]: group added to /etc/gshadow: name=postdrop
+ LAPTOP-THASAN groupadd[986]: new group: name=postdrop, GID=110
+ LAPTOP-THASAN kernel:         Rude variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:         Tracing variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:         Trampoline variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:     /init
+ LAPTOP-THASAN kernel:     HOME=/
+ LAPTOP-THASAN kernel:     TERM=linux
+ LAPTOP-THASAN kernel:     WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel:     WSL_ROOT_INIT=1
+ LAPTOP-THASAN kernel:   AMD AuthenticAMD
+ LAPTOP-THASAN kernel:   DMA32    [mem 0x0000000000001000-0x00000000ffffffff]
+ LAPTOP-THASAN kernel:   Device   empty
+ LAPTOP-THASAN kernel:   Intel GenuineIntel
+ LAPTOP-THASAN kernel:   Normal   [mem 0x0000000100000000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000000200000-0x00000000f7ffffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000100000000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel:   with arguments:
+ LAPTOP-THASAN kernel:   with environment:
+ LAPTOP-THASAN kernel: ... bit width:              48
+ LAPTOP-THASAN kernel: ... event mask:             0001000f000000ff
+ LAPTOP-THASAN kernel: ... fixed-purpose events:   4
+ LAPTOP-THASAN kernel: ... generic registers:      8
+ LAPTOP-THASAN kernel: ... max period:             00007fffffffffff
+ LAPTOP-THASAN kernel: ... value mask:             0000ffffffffffff
+ LAPTOP-THASAN kernel: ... version:                5
+ LAPTOP-THASAN kernel: .... node  #0, CPUs:      #2 #4 #6 #1 #3 #5 #7
+ LAPTOP-THASAN kernel: 9p: Installing v9fs 9p2000 file system support
+ LAPTOP-THASAN kernel: 9pnet: Installing 9P2000 support
+ LAPTOP-THASAN kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+ LAPTOP-THASAN kernel: ACPI: AC: AC Adapter [AC1] (on-line)
+ LAPTOP-THASAN kernel: ACPI: APIC 0x000000000011F604 000088 (v04 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Module Device)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Processor Aggregator Device)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Processor Device)
+ LAPTOP-THASAN kernel: ACPI: Core revision 20230628
+ LAPTOP-THASAN kernel: ACPI: DSDT 0x00000000001011B8 01E11C (v02 MSFTVM DSDT01   00000001 INTL 20230628)
+ LAPTOP-THASAN kernel: ACPI: Early table checksum verification disabled
+ LAPTOP-THASAN kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+ LAPTOP-THASAN kernel: ACPI: FACP 0x0000000000101000 000114 (v06 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: FACS 0x0000000000101114 000040
+ LAPTOP-THASAN kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+ LAPTOP-THASAN kernel: ACPI: Interpreter enabled
+ LAPTOP-THASAN kernel: ACPI: LAPIC_NMI (acpi_id[0x01] dfl dfl lint[0x1])
+ LAPTOP-THASAN kernel: ACPI: OEM0 0x0000000000101154 000064 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: PM-Timer IO Port: 0x408
+ LAPTOP-THASAN kernel: ACPI: PM: (supports S0 S5)
+ LAPTOP-THASAN kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VRTUAL)
+ LAPTOP-THASAN kernel: ACPI: Reserving APIC table memory at [mem 0x11f604-0x11f68b]
+ LAPTOP-THASAN kernel: ACPI: Reserving DSDT table memory at [mem 0x1011b8-0x11f2d3]
+ LAPTOP-THASAN kernel: ACPI: Reserving FACP table memory at [mem 0x101000-0x101113]
+ LAPTOP-THASAN kernel: ACPI: Reserving FACS table memory at [mem 0x101114-0x101153]
+ LAPTOP-THASAN kernel: ACPI: Reserving OEM0 table memory at [mem 0x101154-0x1011b7]
+ LAPTOP-THASAN kernel: ACPI: Reserving SRAT table memory at [mem 0x11f2d4-0x11f603]
+ LAPTOP-THASAN kernel: ACPI: SRAT 0x000000000011F2D4 000330 (v02 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0xf7ffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x1fcbfffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1000000000-0xffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x10000000000-0x1ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000000-0x1fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1000000000000-0x1ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1fcc00000-0x9ffdfffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x20000000000-0x3ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x200000000000-0x3fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x2000000000000-0x3ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x40000000000-0x7ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x400000000000-0x7fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x4000000000000-0x7ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x80000000000-0xfffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x800000000000-0xffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x8000000000000-0xfffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+ LAPTOP-THASAN kernel: ACPI: Using IOAPIC for interrupt routing
+ LAPTOP-THASAN kernel: ACPI: XSDT 0x0000000000100000 000044 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+ LAPTOP-THASAN kernel: ACPI: battery: Slot [BAT1] (battery present)
+ LAPTOP-THASAN kernel: ACPI: bus type drm_connector registered
+ LAPTOP-THASAN kernel: AES CTR mode by8 optimization enabled
+ LAPTOP-THASAN kernel: AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+ LAPTOP-THASAN kernel: APIC: Static calls initialized
+ LAPTOP-THASAN kernel: APIC: Switch to symmetric I/O mode setup
+ LAPTOP-THASAN kernel: APIC: Switched APIC routing to: physical x2apic
+ LAPTOP-THASAN kernel: APIC: send_IPI() replaced with hv_send_ipi()
+ LAPTOP-THASAN kernel: APIC: send_IPI_all() replaced with hv_send_ipi_all()
+ LAPTOP-THASAN kernel: APIC: send_IPI_allbutself() replaced with hv_send_ipi_allbutself()
+ LAPTOP-THASAN kernel: APIC: send_IPI_mask() replaced with hv_send_ipi_mask()
+ LAPTOP-THASAN kernel: APIC: send_IPI_mask_allbutself() replaced with hv_send_ipi_mask_allbutself()
+ LAPTOP-THASAN kernel: APIC: send_IPI_self() replaced with hv_send_ipi_self()
+ LAPTOP-THASAN kernel: AVX2 version of gcm_enc/dec engaged.
+ LAPTOP-THASAN kernel: Adding 2097152k swap on /dev/sdc.  Priority:-2 extents:1 across:2097152k 
+ LAPTOP-THASAN kernel: Asymmetric key parser 'x509' registered
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x00000000000e0000-0x00000000000e0fff] reserved
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000001fffff] ACPI data
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000200000-0x00000000f7ffffff] usable
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000100000000-0x00000001fcbfffff] usable
+ LAPTOP-THASAN kernel: BIOS-provided physical RAM map:
+ LAPTOP-THASAN kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+ LAPTOP-THASAN kernel: Booting paravirtualized kernel on Hyper-V
+ LAPTOP-THASAN kernel: Bridge firewalling registered
+ LAPTOP-THASAN kernel: Built 1 zonelists, mobility grouping on.  Total pages: 2018000
+ LAPTOP-THASAN kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 4838.40 BogoMIPS (lpj=9676800)
+ LAPTOP-THASAN kernel: Command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=8 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel: Console: colour dummy device 80x25
+ LAPTOP-THASAN kernel: Copyright (c) 1999-2008 LSI Corporation
+ LAPTOP-THASAN kernel: DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+ LAPTOP-THASAN kernel: DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+ LAPTOP-THASAN kernel: DMI not present or invalid.
+ LAPTOP-THASAN kernel: Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+ LAPTOP-THASAN kernel: Dynamic Preempt: none
+ LAPTOP-THASAN kernel: EDAC MC: Ver: 3.0.0
+ LAPTOP-THASAN kernel: EXT4-fs (sda): mounted filesystem 00000000-0000-0000-0000-000000000000 ro without journal. Quota mode: none.
+ LAPTOP-THASAN kernel: EXT4-fs (sdb): mounted filesystem 00000000-0000-0000-0000-000000000000 ro without journal. Quota mode: none.
+ LAPTOP-THASAN kernel: EXT4-fs (sdd): mounted filesystem 1eb82b94-0a29-4f31-92ce-1fd027858b7b r/w with ordered data mode. Quota mode: none.
+ LAPTOP-THASAN kernel: Early memory node ranges
+ LAPTOP-THASAN kernel: FS-Cache: Loaded
+ LAPTOP-THASAN kernel: Failed to register legacy timer interrupt
+ LAPTOP-THASAN kernel: Fallback order for Node 0: 0 
+ LAPTOP-THASAN kernel: Free page reporting enabled
+ LAPTOP-THASAN kernel: Freeing SMP alternatives memory: 44K
+ LAPTOP-THASAN kernel: Freeing initrd memory: 2672K
+ LAPTOP-THASAN kernel: Freeing unused decrypted memory: 2028K
+ LAPTOP-THASAN kernel: Freeing unused kernel image (initmem) memory: 4492K
+ LAPTOP-THASAN kernel: Freeing unused kernel image (rodata/data gap) memory: 840K
+ LAPTOP-THASAN kernel: Fusion MPT SAS Host driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT SPI Host driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT base driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT misc device (ioctl) driver 3.04.20
+ LAPTOP-THASAN kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+ LAPTOP-THASAN kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+ LAPTOP-THASAN kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+ LAPTOP-THASAN kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+ LAPTOP-THASAN kernel: Hyper-V: Disabling IBT because of Hyper-V bug
+ LAPTOP-THASAN kernel: Hyper-V: Host Build 10.0.26100.7171-7-0
+ LAPTOP-THASAN kernel: Hyper-V: LAPIC Timer Frequency: 0xc3500
+ LAPTOP-THASAN kernel: Hyper-V: Nested features: 0x3e0101
+ LAPTOP-THASAN kernel: Hyper-V: PV spinlocks enabled
+ LAPTOP-THASAN kernel: Hyper-V: Using IPI hypercalls
+ LAPTOP-THASAN kernel: Hyper-V: Using hypercall for remote TLB flush
+ LAPTOP-THASAN kernel: Hyper-V: enabling crash_kexec_post_notifiers
+ LAPTOP-THASAN kernel: Hyper-V: privilege flags low 0xae7f, high 0x3b8030, hints 0x9a4e24, misc 0xe4bed7b6
+ LAPTOP-THASAN kernel: Hypervisor detected: Microsoft Hyper-V
+ LAPTOP-THASAN kernel: IOAPIC[0]: apic_id 8, version 17, address 0xfec00000, GSI 0-23
+ LAPTOP-THASAN kernel: IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+ LAPTOP-THASAN kernel: IPI shorthand broadcast: enabled
+ LAPTOP-THASAN kernel: In-situ OAM (IOAM) with IPv6
+ LAPTOP-THASAN kernel: Initialise system trusted keyrings
+ LAPTOP-THASAN kernel: Initmem setup node 0 [mem 0x0000000000001000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel: Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+ LAPTOP-THASAN kernel: KERNEL supported cpus:
+ LAPTOP-THASAN kernel: Kernel command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=8 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel: Key type asymmetric registered
+ LAPTOP-THASAN kernel: Key type blacklist registered
+ LAPTOP-THASAN kernel: LSM: initializing lsm=capability,landlock,yama,safesetid,selinux,integrity
+ LAPTOP-THASAN kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+ LAPTOP-THASAN kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+ LAPTOP-THASAN kernel: Linux agpgart interface v0.103
+ LAPTOP-THASAN kernel: Linux version 6.6.87.2-microsoft-standard-WSL2 (root@439a258ad544) (gcc (GCC) 11.2.0, GNU ld (GNU Binutils) 2.37) #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+ LAPTOP-THASAN kernel: Loading compiled-in X.509 certificates
+ LAPTOP-THASAN kernel: Loading iSCSI transport class v2.0-870.
+ LAPTOP-THASAN kernel: MTRR map: 5 entries (4 fixed + 1 variable; max 20), built from 8 variable MTRRs
+ LAPTOP-THASAN kernel: Memory: 4074588K/8202876K available (20480K kernel code, 3457K rwdata, 13496K rodata, 4492K init, 6208K bss, 262392K reserved, 0K cma-reserved)
+ LAPTOP-THASAN kernel: Microchip SmartPQI Driver (v2.1.24-046)
+ LAPTOP-THASAN kernel: Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Movable zone start for each node
+ LAPTOP-THASAN kernel: NET: Registered PF_INET protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_INET6 protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_PACKET protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_VSOCK protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_XDP protocol family
+ LAPTOP-THASAN kernel: NODE_DATA(0) allocated [mem 0x1fcbde000-0x1fcbfffff]
+ LAPTOP-THASAN kernel: NR_IRQS: 524544, nr_irqs: 488, preallocated irqs: 0
+ LAPTOP-THASAN kernel: NUMA: Node 0 [mem 0x00000000-0xf7ffffff] + [mem 0x100000000-0x1fcbfffff] -> [mem 0x00000000-0x1fcbfffff]
+ LAPTOP-THASAN kernel: NX (Execute Disable) protection: active
+ LAPTOP-THASAN kernel: NetLabel:  domain hash size = 128
+ LAPTOP-THASAN kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+ LAPTOP-THASAN kernel: NetLabel:  unlabeled traffic allowed by default
+ LAPTOP-THASAN kernel: NetLabel: Initializing
+ LAPTOP-THASAN kernel: On node 0, zone DMA32: 1 pages in unavailable ranges
+ LAPTOP-THASAN kernel: On node 0, zone DMA32: 352 pages in unavailable ranges
+ LAPTOP-THASAN kernel: On node 0, zone Normal: 13312 pages in unavailable ranges
+ LAPTOP-THASAN kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+ LAPTOP-THASAN kernel: PCI: CLS 0 bytes, default 64
+ LAPTOP-THASAN kernel: PCI: Fatal: No config space access function found
+ LAPTOP-THASAN kernel: PCI: System does not support PCI
+ LAPTOP-THASAN kernel: PCI: Using ACPI for IRQ routing
+ LAPTOP-THASAN kernel: PCI: Using E820 reservations for host bridge windows
+ LAPTOP-THASAN kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000e0000-0x000e0fff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000e1000-0x000fffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x00100000-0x001fffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xffffffff]
+ LAPTOP-THASAN kernel: PPP generic driver version 2.4.2
+ LAPTOP-THASAN kernel: PTP clock support registered
+ LAPTOP-THASAN kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+ LAPTOP-THASAN kernel: Performance Events:  AnyThread deprecated, Icelake events, 32-deep LBR, full-width counters, Intel PMU driver.
+ LAPTOP-THASAN kernel: Policy zone: Normal
+ LAPTOP-THASAN kernel: RAMDISK: [mem 0x04be4000-0x04e7ffff]
+ LAPTOP-THASAN kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+ LAPTOP-THASAN kernel: RAS: Correctable Errors collector initialized.
+ LAPTOP-THASAN kernel: RCU Tasks Rude: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RCU Tasks Trace: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RETBleed: Mitigation: Enhanced IBRS
+ LAPTOP-THASAN kernel: Run /init as init process
+ LAPTOP-THASAN kernel: SCSI subsystem initialized
+ LAPTOP-THASAN kernel: SELinux:  Initializing.
+ LAPTOP-THASAN kernel: SGI XFS with ACLs, security attributes, realtime, verbose warnings, quota, no debug enabled
+ LAPTOP-THASAN kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x00 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x01 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x02 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x03 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x04 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x05 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x06 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x07 -> Node 0
+ LAPTOP-THASAN kernel: Segment Routing with IPv6
+ LAPTOP-THASAN kernel: Serial: 8250/16550 driver, 8 ports, IRQ sharing enabled
+ LAPTOP-THASAN kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+ LAPTOP-THASAN kernel: Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on vm exit
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+ LAPTOP-THASAN kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+ LAPTOP-THASAN kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+ LAPTOP-THASAN kernel: TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+ LAPTOP-THASAN kernel: TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+ LAPTOP-THASAN kernel: TCP: Hash tables configured (established 65536 bind 65536)
+ LAPTOP-THASAN kernel: TCP: eth0: Driver has suspect GRO implementation, TCP performance may be compromised.
+ LAPTOP-THASAN kernel: TSC deadline timer available
+ LAPTOP-THASAN kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+ LAPTOP-THASAN kernel: Trying to unpack rootfs image as initramfs...
+ LAPTOP-THASAN kernel: UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Unknown kernel command line parameters "WSL_ROOT_INIT=1 WSL_ENABLE_CRASH_DUMP=1", will be passed to user space.
+ LAPTOP-THASAN kernel: Using GB pages for direct mapping
+ LAPTOP-THASAN kernel: Using NULL legacy PIC
+ LAPTOP-THASAN kernel: VFS: Disk quotas dquot_6.6.0
+ LAPTOP-THASAN kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+ LAPTOP-THASAN kernel: VMware PVSCSI driver - version 1.0.7.0-k
+ LAPTOP-THASAN kernel: VMware vmxnet3 virtual NIC driver - version 1.7.0.0-k-NAPI
+ LAPTOP-THASAN kernel: Write protecting the kernel read-only data: 34816k
+ LAPTOP-THASAN kernel: Yama: becoming mindful.
+ LAPTOP-THASAN kernel: Zone ranges:
+ LAPTOP-THASAN kernel: [mem 0xf8000000-0xffffffff] available for PCI devices
+ LAPTOP-THASAN kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+ LAPTOP-THASAN kernel: audit: initializing netlink subsys (disabled)
+ LAPTOP-THASAN kernel: audit: type=2000 audit(1763092324.020:1): state=initialized audit_enabled=0 res=1
+ LAPTOP-THASAN kernel: brd: module loaded
+ LAPTOP-THASAN kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+ LAPTOP-THASAN kernel: clk: Disabling unused clocks
+ LAPTOP-THASAN kernel: clocksource: Switched to clocksource tsc
+ LAPTOP-THASAN kernel: clocksource: Switched to clocksource tsc-early
+ LAPTOP-THASAN kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+ LAPTOP-THASAN kernel: clocksource: hyperv_clocksource_msr: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+ LAPTOP-THASAN kernel: clocksource: hyperv_clocksource_tsc_page: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+ LAPTOP-THASAN kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+ LAPTOP-THASAN kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+ LAPTOP-THASAN kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22df1149949, max_idle_ns: 440795312789 ns
+ LAPTOP-THASAN kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22df1149949, max_idle_ns: 440795312789 ns
+ LAPTOP-THASAN kernel: cpuidle: using governor ladder
+ LAPTOP-THASAN kernel: cpuidle: using governor menu
+ LAPTOP-THASAN kernel: cryptd: max_cpu_qlen set to 1000
+ LAPTOP-THASAN kernel: dca service started, version 1.12.1
+ LAPTOP-THASAN kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+ LAPTOP-THASAN kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+ LAPTOP-THASAN kernel: device-mapper: uevent: version 1.0.3
+ LAPTOP-THASAN kernel: devtmpfs: initialized
+ LAPTOP-THASAN kernel: drop_monitor: Initializing network drop monitor service
+ LAPTOP-THASAN kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+ LAPTOP-THASAN kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+ LAPTOP-THASAN kernel: ftrace: allocated 218 pages with 5 groups
+ LAPTOP-THASAN kernel: ftrace: allocating 55808 entries in 218 pages
+ LAPTOP-THASAN kernel: fuse: init (API version 7.39)
+ LAPTOP-THASAN kernel: futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: hv_balloon: Cold memory discard hint enabled with order 9
+ LAPTOP-THASAN kernel: hv_balloon: Max. dynamic memory size: 8012 MB
+ LAPTOP-THASAN kernel: hv_balloon: Using Dynamic Memory protocol version 2.0
+ LAPTOP-THASAN kernel: hv_pci 06850221-8423-4a4c-83a6-6991f3c0fef8: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci 06850221-8423-4a4c-83a6-6991f3c0fef8: PCI host bridge to bus 8423:00
+ LAPTOP-THASAN kernel: hv_pci 19d7d358-78c1-44b2-88a0-6b2667f62b97: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci 19d7d358-78c1-44b2-88a0-6b2667f62b97: PCI host bridge to bus 78c1:00
+ LAPTOP-THASAN kernel: hv_pci c4b741f5-5582-4c98-8f8b-2e082933c396: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci c4b741f5-5582-4c98-8f8b-2e082933c396: PCI host bridge to bus 5582:00
+ LAPTOP-THASAN kernel: hv_utils: Registering HyperV Utility Driver
+ LAPTOP-THASAN kernel: hv_utils: TimeSync IC version 4.0
+ LAPTOP-THASAN kernel: hv_vmbus: Unknown GUID: 6e382d18-3336-4f4b-acc4-2b7703d4df4a
+ LAPTOP-THASAN kernel: hv_vmbus: Unknown GUID: dde9cbc0-5060-4436-9448-ea1254a5d177
+ LAPTOP-THASAN kernel: hv_vmbus: Vmbus version:5.3
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver dxgkrnl
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_balloon
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_netvsc
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_pci
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_sock
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_storvsc
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_utils
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hyperv_keyboard
+ LAPTOP-THASAN kernel: i8042: PNP: No PS/2 controller found.
+ LAPTOP-THASAN kernel: ima: Allocated hash algorithm: sha256
+ LAPTOP-THASAN kernel: ima: No TPM chip found, activating TPM-bypass!
+ LAPTOP-THASAN kernel: ima: No architecture policies found
+ LAPTOP-THASAN kernel: intel_pstate: CPU model not supported
+ LAPTOP-THASAN kernel: intel_rapl_msr: PL4 support detected.
+ LAPTOP-THASAN kernel: io scheduler kyber registered
+ LAPTOP-THASAN kernel: io scheduler mq-deadline registered
+ LAPTOP-THASAN kernel: ioatdma: Intel(R) QuickData Technology Driver 5.00
+ LAPTOP-THASAN kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+ LAPTOP-THASAN kernel: iommu: Default domain type: Translated
+ LAPTOP-THASAN kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+ LAPTOP-THASAN kernel: kvm_intel: Using Hyper-V Enlightened VMCS
+ LAPTOP-THASAN kernel: landlock: Up and running.
+ LAPTOP-THASAN kernel: last_pfn = 0x1fcc00 max_arch_pfn = 0x400000000
+ LAPTOP-THASAN kernel: last_pfn = 0xf8000 max_arch_pfn = 0x400000000
+ LAPTOP-THASAN kernel: libata version 3.00 loaded.
+ LAPTOP-THASAN kernel: loop: module loaded
+ LAPTOP-THASAN kernel: mem auto-init: stack:off, heap alloc:on, heap free:off
+ LAPTOP-THASAN kernel: mini_init (201): drop_caches: 1
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+ LAPTOP-THASAN kernel: mptctl: /dev/mptctl @ (major,minor=10,220)
+ LAPTOP-THASAN kernel: mptctl: Registered with Fusion MPT base driver
+ LAPTOP-THASAN kernel: node 0 deferred pages initialised in 8ms
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 0: assigned [mem 0x9ffe00000-0x9ffe00fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 2: assigned [mem 0x9ffe01000-0x9ffe01fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 4: assigned [mem 0x9ffe02000-0x9ffe02fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: [1af4:1043] type 00 class 0x010000
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x10: [mem 0x9ffe00000-0x9ffe00fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x18: [mem 0x9ffe01000-0x9ffe01fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x20: [mem 0x9ffe02000-0x9ffe02fff 64bit]
+ LAPTOP-THASAN kernel: pci 78c1:00:00.0: [1414:008e] type 00 class 0x030200
+ LAPTOP-THASAN kernel: pci 8423:00:00.0: BAR 0: assigned [mem 0xe00000000-0xe00000fff 64bit]
+ LAPTOP-THASAN kernel: pci 8423:00:00.0: BAR 2: assigned [mem 0xe00001000-0xe00001fff 64bit]
+ LAPTOP-THASAN kernel: pci 8423:00:00.0: BAR 4: assigned [mem 0xc00000000-0xdffffffff 64bit]
+ LAPTOP-THASAN kernel: pci 8423:00:00.0: [1af4:105a] type 00 class 0x088000
+ LAPTOP-THASAN kernel: pci 8423:00:00.0: reg 0x10: [mem 0xe00000000-0xe00000fff 64bit]
+ LAPTOP-THASAN kernel: pci 8423:00:00.0: reg 0x18: [mem 0xe00001000-0xe00001fff 64bit]
+ LAPTOP-THASAN kernel: pci 8423:00:00.0: reg 0x20: [mem 0xc00000000-0xdffffffff 64bit]
+ LAPTOP-THASAN kernel: pci_bus 5582:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus 5582:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pci_bus 5582:00: root bus resource [mem 0x9ffe00000-0x9ffe02fff window]
+ LAPTOP-THASAN kernel: pci_bus 78c1:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus 78c1:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pci_bus 8423:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus 8423:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pci_bus 8423:00: root bus resource [mem 0xc00000000-0xe00001fff window]
+ LAPTOP-THASAN kernel: pcpu-alloc: [0] 0 1 2 3 4 5 6 7 
+ LAPTOP-THASAN kernel: pcpu-alloc: s221184 r8192 d28672 u262144 alloc=1*2097152
+ LAPTOP-THASAN kernel: percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u262144
+ LAPTOP-THASAN kernel: pid_max: default: 32768 minimum: 301
+ LAPTOP-THASAN kernel: pinctrl core: initialized pinctrl subsystem
+ LAPTOP-THASAN kernel: pnp: PnP ACPI init
+ LAPTOP-THASAN kernel: pnp: PnP ACPI: found 1 devices
+ LAPTOP-THASAN kernel: pps_core: LinuxPPS API ver. 1 registered
+ LAPTOP-THASAN kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+ LAPTOP-THASAN kernel: printk: console [hvc0] enabled
+ LAPTOP-THASAN kernel: pulseaudio[246]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+ LAPTOP-THASAN kernel: random: crng init done
+ LAPTOP-THASAN kernel: rcu:         Max phase no-delay instances is 1000.
+ LAPTOP-THASAN kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+ LAPTOP-THASAN kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+ LAPTOP-THASAN kernel: rcu: Hierarchical SRCU implementation.
+ LAPTOP-THASAN kernel: rcu: Preemptible hierarchical RCU implementation.
+ LAPTOP-THASAN kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+ LAPTOP-THASAN kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+ LAPTOP-THASAN kernel: rdac: device handler registered
+ LAPTOP-THASAN kernel: registered taskstats version 1
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: RTC can wake from S4
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: alarms up to one month, 114 bytes nvram
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: registered as rtc0
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: setting system clock to 2025-11-14T03:52:04 UTC (1763092324)
+ LAPTOP-THASAN kernel: sched_clock: Marking stable (248007407, 3002164)->(274069229, -23059658)
+ LAPTOP-THASAN kernel: scsi 0:0:0:0: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:1: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:2: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:3: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi host0: storvsc_host_t
+ LAPTOP-THASAN kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] 795536 512-byte logical blocks: (407 MB/388 MiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Mode Sense: 0f 00 80 00
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Write Protect is on
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:1: Attached scsi generic sg1 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] 381016 512-byte logical blocks: (195 MB/186 MiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Mode Sense: 0f 00 80 00
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Write Protect is on
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:2: Attached scsi generic sg2 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] 4096-byte physical blocks
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] 4194312 512-byte logical blocks: (2.15 GB/2.00 GiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Mode Sense: 0f 00 00 00
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Write Protect is off
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:3: Attached scsi generic sg3 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] 2147483648 512-byte logical blocks: (1.10 TB/1.00 TiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] 4096-byte physical blocks
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Mode Sense: 0f 00 00 00
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Write Protect is off
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:8 nr_cpu_ids:8 nr_node_ids:1
+ LAPTOP-THASAN kernel: signal: max sigframe size: 3632
+ LAPTOP-THASAN kernel: smp: Bringing up secondary CPUs ...
+ LAPTOP-THASAN kernel: smp: Brought up 1 node, 8 CPUs
+ LAPTOP-THASAN kernel: smpboot: Allowing 8 CPUs, 0 hotplug CPUs
+ LAPTOP-THASAN kernel: smpboot: CPU0: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (family: 0x6, model: 0x8c, stepping: 0x1)
+ LAPTOP-THASAN kernel: smpboot: Max logical packages: 1
+ LAPTOP-THASAN kernel: smpboot: Total of 8 processors activated (38707.20 BogoMIPS)
+ LAPTOP-THASAN kernel: smpboot: x86: Booting SMP configuration:
+ LAPTOP-THASAN kernel: software IO TLB: area num 8.
+ LAPTOP-THASAN kernel: software IO TLB: mapped [mem 0x00000000f4000000-0x00000000f8000000] (64MB)
+ LAPTOP-THASAN kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+ LAPTOP-THASAN kernel: tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+ LAPTOP-THASAN kernel: thermal_sys: Registered thermal governor 'step_wise'
+ LAPTOP-THASAN kernel: thermal_sys: Registered thermal governor 'user_space'
+ LAPTOP-THASAN kernel: tsc: Detected 2419.200 MHz processor
+ LAPTOP-THASAN kernel: tun: Universal TUN/TAP device driver, 1.6
+ LAPTOP-THASAN kernel: vgaarb: loaded
+ LAPTOP-THASAN kernel: virtio-pci 5582:00:00.0: enabling device (0000 -> 0002)
+ LAPTOP-THASAN kernel: virtio-pci 8423:00:00.0: enabling device (0000 -> 0002)
+ LAPTOP-THASAN kernel: virtiofs virtio1: Cache len: 0x200000000 @ 0xc00000000
+ LAPTOP-THASAN kernel: workingset: timestamp_bits=36 max_order=21 bucket_order=0
+ LAPTOP-THASAN kernel: x2apic enabled
+ LAPTOP-THASAN kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+ LAPTOP-THASAN kernel: x86/cpu: User Mode Instruction Prevention (UMIP) activated
+ LAPTOP-THASAN kernel: x86/fpu: Enabled xstate features 0x8e7, context size is 2448 bytes, using 'compacted' format.
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x800: 'Control-flow User registers'
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[11]: 2432, xstate_sizes[11]:   16
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+ LAPTOP-THASAN kernel: x86/mm: Memory block size: 128MB
+ LAPTOP-THASAN landscape-config[164]: Config Path:   /etc/landscape/client.conf
+ LAPTOP-THASAN landscape-config[164]: Data Path      /var/lib/landscape/client
+ LAPTOP-THASAN landscape-config[164]: Registered:    False
+ LAPTOP-THASAN login[305]: PAM adding faulty module: pam_lastlog.so
+ LAPTOP-THASAN login[305]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+ LAPTOP-THASAN login[305]: pam_unix(login:session): session opened for user thasa(uid=1000) by thasa(uid=0)
+ LAPTOP-THASAN polkitd[1175]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+ LAPTOP-THASAN polkitd[1175]: Finished loading, compiling and executing 4 rules
+ LAPTOP-THASAN polkitd[1175]: Loading rules from directory /etc/polkit-1/rules.d
+ LAPTOP-THASAN polkitd[1175]: Loading rules from directory /usr/share/polkit-1/rules.d
+ LAPTOP-THASAN polkitd[1175]: Started polkitd version 124
+ LAPTOP-THASAN rsyslogd[1134]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="1134" x-info="https://www.rsyslog.com"] start
+ LAPTOP-THASAN rsyslogd[1134]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+ LAPTOP-THASAN rsyslogd[1134]: rsyslogd's groupid changed to 102
+ LAPTOP-THASAN rsyslogd[1134]: rsyslogd's userid changed to 102
+ LAPTOP-THASAN rsyslogd[198]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="198" x-info="https://www.rsyslog.com"] exiting on signal 15.
+ LAPTOP-THASAN rsyslogd[198]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="198" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+ LAPTOP-THASAN rsyslogd[198]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="198" x-info="https://www.rsyslog.com"] start
+ LAPTOP-THASAN rsyslogd[198]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+ LAPTOP-THASAN rsyslogd[198]: rsyslogd's groupid changed to 102
+ LAPTOP-THASAN rsyslogd[198]: rsyslogd's userid changed to 102
+ LAPTOP-THASAN sh[93]: /bin/sh: 1: cannot create /proc/sys/fs/binfmt_misc/WSLInterop-late: Permission denied
+ LAPTOP-THASAN snapd[169]: backends.go:68: AppArmor status: apparmor not enabled
+ LAPTOP-THASAN snapd[169]: daemon stop requested to wait for socket activation
+ LAPTOP-THASAN snapd[169]: daemon.go:250: started snapd/2.68.5+ubuntu24.04.1 (series 16; classic; devmode; wsl) ubuntu/24.04 (amd64) linux/6.6.87.2-microsoft-standa.
+ LAPTOP-THASAN snapd[169]: daemon.go:353: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+ LAPTOP-THASAN snapd[169]: daemon.go:548: gracefully waiting for running hooks
+ LAPTOP-THASAN snapd[169]: daemon.go:550: done waiting for running hooks
+ LAPTOP-THASAN snapd[169]: overlord.go:284: Acquiring state lock file
+ LAPTOP-THASAN snapd[169]: overlord.go:289: Acquired state lock file
+ LAPTOP-THASAN snapd[169]: overlord.go:528: Released state lock file
+ LAPTOP-THASAN sudo[1198]:    thasa : TTY=pts/0 ; PWD=/home/thasa ; USER=root ; COMMAND=/usr/bin/apt install msmtp msmtp-mta
+ LAPTOP-THASAN sudo[1198]: pam_unix(sudo:session): session closed for user root
+ LAPTOP-THASAN sudo[1198]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+ LAPTOP-THASAN sudo[2440]:    thasa : TTY=pts/2 ; PWD=/home/thasa ; USER=root ; COMMAND=/usr/bin/apt update
+ LAPTOP-THASAN sudo[2440]: pam_unix(sudo:session): session closed for user root
+ LAPTOP-THASAN sudo[2440]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+ LAPTOP-THASAN sudo[2700]:    thasa : TTY=pts/2 ; PWD=/home/thasa ; USER=root ; COMMAND=/usr/bin/apt install msmtp msmtp-mta
+ LAPTOP-THASAN sudo[2700]: pam_unix(sudo:session): session closed for user root
+ LAPTOP-THASAN sudo[2700]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+ LAPTOP-THASAN sudo[4302]:    thasa : TTY=pts/3 ; PWD=/home/thasa/Missing-Semester/Lecture2 ; USER=root ; COMMAND=/usr/bin/apt update
+ LAPTOP-THASAN sudo[4302]: pam_unix(sudo:session): session closed for user root
+ LAPTOP-THASAN sudo[4302]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+ LAPTOP-THASAN sudo[4559]:    thasa : TTY=pts/3 ; PWD=/home/thasa/Missing-Semester/Lecture2 ; USER=root ; COMMAND=/usr/bin/apt install zip
+ LAPTOP-THASAN sudo[4559]: pam_unix(sudo:session): session closed for user root
+ LAPTOP-THASAN sudo[4559]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+ LAPTOP-THASAN sudo[493]:    thasa : TTY=pts/0 ; PWD=/home/thasa ; USER=root ; COMMAND=/usr/bin/apt install mailutils
+ LAPTOP-THASAN sudo[493]: pam_unix(sudo:session): session closed for user root
+ LAPTOP-THASAN sudo[493]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+ LAPTOP-THASAN systemd-journald[39]: Collecting audit messages is disabled.
+ LAPTOP-THASAN systemd-journald[39]: File /var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55/system.journal corrupted or uncleanly shut down, renaming and replacing.
+ LAPTOP-THASAN systemd-journald[39]: Journal started
+ LAPTOP-THASAN systemd-journald[39]: Received client request to flush runtime journal.
+ LAPTOP-THASAN systemd-journald[39]: Runtime Journal (/run/log/journal/e0af5bf49a0a471abdfbb01564eb1a55) is 8.0M, max 388.2M, 380.2M free.
+ LAPTOP-THASAN systemd-journald[39]: System Journal (/var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55) is 436.1M, max 4.0G, 3.5G free.
+ LAPTOP-THASAN systemd-journald[39]: Time jumped backwards, rotating.
+ LAPTOP-THASAN systemd-journald[39]: Time jumped backwards, rotating. (Dropped 1 similar message(s))
+ LAPTOP-THASAN systemd-journald[39]: Time spent on flushing to /var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55 is 5.167ms for 456 entries.
+ LAPTOP-THASAN systemd-logind[173]: New seat seat0.
+ LAPTOP-THASAN systemd-logind[173]: New session 1 of user thasa.
+ LAPTOP-THASAN systemd-resolved[147]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+ LAPTOP-THASAN systemd-resolved[147]: Clock change detected. Flushing caches.
+ LAPTOP-THASAN systemd-resolved[147]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa corp home internal intranet lan local private test
+ LAPTOP-THASAN systemd-resolved[147]: Positive Trust Anchors:
+ LAPTOP-THASAN systemd-resolved[147]: Using system hostname 'LAPTOP-THASAN'.
+ LAPTOP-THASAN systemd-sysctl[61]: Couldn't write '1' to 'kernel/apparmor_restrict_unprivileged_userns', ignoring: No such file or directory
+ LAPTOP-THASAN systemd-timesyncd[148]: Contacted time server 185.125.190.58:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[148]: Contacted time server 91.189.91.157:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[148]: Initial clock synchronization to Thu 2025-11-13 22:52:06.075651 EST.
+ LAPTOP-THASAN systemd-timesyncd[148]: Timed out waiting for reply from 185.125.190.56:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[148]: Timed out waiting for reply from 185.125.190.57:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[148]: Timed out waiting for reply from 185.125.190.58:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[148]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-udevd[88]: Using default interface naming scheme 'v255'.
+ LAPTOP-THASAN systemd[1]: Cannot find unit for notify message of PID 248, ignoring.
+ LAPTOP-THASAN systemd[1]: Condition check resulted in landscape-client.service - Landscape client daemons being skipped.
+ LAPTOP-THASAN systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+ LAPTOP-THASAN systemd[1]: Created slice system-postfix.slice - Slice /system/postfix.
+ LAPTOP-THASAN systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+ LAPTOP-THASAN systemd[1]: Failed to start postfix@-.service - Postfix Mail Transport Agent (instance -).
+ LAPTOP-THASAN systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+ LAPTOP-THASAN systemd[1]: Finished apt-daily.service - Daily apt download activities.
+ LAPTOP-THASAN systemd[1]: Finished apt-news.service - Update APT News.
+ LAPTOP-THASAN systemd[1]: Finished console-setup.service - Set console font and keymap.
+ LAPTOP-THASAN systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+ LAPTOP-THASAN systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+ LAPTOP-THASAN systemd[1]: Finished esm-cache.service - Update the local ESM caches.
+ LAPTOP-THASAN systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+ LAPTOP-THASAN systemd[1]: Finished logrotate.service - Rotate log files.
+ LAPTOP-THASAN systemd[1]: Finished man-db.service - Daily man-db regeneration.
+ LAPTOP-THASAN systemd[1]: Finished motd-news.service - Message of the Day.
+ LAPTOP-THASAN systemd[1]: Finished setvtrgb.service - Set console scheme.
+ LAPTOP-THASAN systemd[1]: Finished snapd.seeded.service - Wait until snapd is fully seeded.
+ LAPTOP-THASAN systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+ LAPTOP-THASAN systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+ LAPTOP-THASAN systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+ LAPTOP-THASAN systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+ LAPTOP-THASAN systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+ LAPTOP-THASAN systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+ LAPTOP-THASAN systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+ LAPTOP-THASAN systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+ LAPTOP-THASAN systemd[1]: Listening on apport-forward.socket - Unix socket for apport crash forwarding.
+ LAPTOP-THASAN systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+ LAPTOP-THASAN systemd[1]: Listening on snapd.socket - Socket activation for snappy daemon.
+ LAPTOP-THASAN systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management (Varlink).
+ LAPTOP-THASAN systemd[1]: Listening on uuidd.socket - UUID daemon activation socket.
+ LAPTOP-THASAN systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+ LAPTOP-THASAN systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+ LAPTOP-THASAN systemd[1]: Reached target basic.target - Basic System.
+ LAPTOP-THASAN systemd[1]: Reached target getty-pre.target - Preparation for Logins.
+ LAPTOP-THASAN systemd[1]: Reached target getty.target - Login Prompts.
+ LAPTOP-THASAN systemd[1]: Reached target graphical.target - Graphical Interface.
+ LAPTOP-THASAN systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+ LAPTOP-THASAN systemd[1]: Reached target local-fs.target - Local File Systems.
+ LAPTOP-THASAN systemd[1]: Reached target multi-user.target - Multi-User System.
+ LAPTOP-THASAN systemd[1]: Reached target network-online.target - Network is Online.
+ LAPTOP-THASAN systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+ LAPTOP-THASAN systemd[1]: Reached target paths.target - Path Units.
+ LAPTOP-THASAN systemd[1]: Reached target sockets.target - Socket Units.
+ LAPTOP-THASAN systemd[1]: Reached target sysinit.target - System Initialization.
+ LAPTOP-THASAN systemd[1]: Reached target time-set.target - System Time Set.
+ LAPTOP-THASAN systemd[1]: Reached target timers.target - Timer Units.
+ LAPTOP-THASAN systemd[1]: Reloading finished in 101 ms.
+ LAPTOP-THASAN systemd[1]: Reloading finished in 1122 ms.
+ LAPTOP-THASAN systemd[1]: Reloading finished in 114 ms.
+ LAPTOP-THASAN systemd[1]: Reloading finished in 1152 ms.
+ LAPTOP-THASAN systemd[1]: Reloading finished in 1186 ms.
+ LAPTOP-THASAN systemd[1]: Reloading finished in 120 ms.
+ LAPTOP-THASAN systemd[1]: Reloading finished in 98 ms.
+ LAPTOP-THASAN systemd[1]: Reloading requested from client PID 1017 ('systemctl') (unit init.scope)...
+ LAPTOP-THASAN systemd[1]: Reloading requested from client PID 1067 ('systemctl') (unit init.scope)...
+ LAPTOP-THASAN systemd[1]: Reloading requested from client PID 1276 ('systemctl') (unit init.scope)...
+ LAPTOP-THASAN systemd[1]: Reloading requested from client PID 1310 ('systemctl') (unit init.scope)...
+ LAPTOP-THASAN systemd[1]: Reloading requested from client PID 1461 ('systemctl') (unit init.scope)...
+ LAPTOP-THASAN systemd[1]: Reloading requested from client PID 1504 ('systemctl') (unit init.scope)...
+ LAPTOP-THASAN systemd[1]: Reloading requested from client PID 851 ('systemctl') (unit init.scope)...
+ LAPTOP-THASAN systemd[1]: Reloading...
+ LAPTOP-THASAN systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+ LAPTOP-THASAN systemd[1]: Started apt-daily.timer - Daily apt download activities.
+ LAPTOP-THASAN systemd[1]: Started console-getty.service - Console Getty.
+ LAPTOP-THASAN systemd[1]: Started cron.service - Regular background program processing daemon.
+ LAPTOP-THASAN systemd[1]: Started dbus.service - D-Bus System Message Bus.
+ LAPTOP-THASAN systemd[1]: Started dmesg.service - Save initial kernel messages after boot.
+ LAPTOP-THASAN systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+ LAPTOP-THASAN systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+ LAPTOP-THASAN systemd[1]: Started getty@tty1.service - Getty on tty1.
+ LAPTOP-THASAN systemd[1]: Started logrotate.timer - Daily rotation of log files.
+ LAPTOP-THASAN systemd[1]: Started man-db.timer - Daily man-db regeneration.
+ LAPTOP-THASAN systemd[1]: Started motd-news.timer - Message of the Day.
+ LAPTOP-THASAN systemd[1]: Started packagekit.service - PackageKit Daemon.
+ LAPTOP-THASAN systemd[1]: Started polkit.service - Authorization Manager.
+ LAPTOP-THASAN systemd[1]: Started rsyslog.service - System Logging Service.
+ LAPTOP-THASAN systemd[1]: Started session-1.scope - Session 1 of User thasa.
+ LAPTOP-THASAN systemd[1]: Started snapd.service - Snap Daemon.
+ LAPTOP-THASAN systemd[1]: Started systemd-logind.service - User Login Management.
+ LAPTOP-THASAN systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+ LAPTOP-THASAN systemd[1]: Started systemd-timedated.service - Time & Date Service.
+ LAPTOP-THASAN systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+ LAPTOP-THASAN systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+ LAPTOP-THASAN systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+ LAPTOP-THASAN systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+ LAPTOP-THASAN systemd[1]: Started user@1000.service - User Manager for UID 1000.
+ LAPTOP-THASAN systemd[1]: Started wsl-pro.service - Bridge to Ubuntu Pro agent on Windows.
+ LAPTOP-THASAN systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+ LAPTOP-THASAN systemd[1]: Starting apt-daily.service - Daily apt download activities...
+ LAPTOP-THASAN systemd[1]: Starting apt-news.service - Update APT News...
+ LAPTOP-THASAN systemd[1]: Starting console-setup.service - Set console font and keymap...
+ LAPTOP-THASAN systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+ LAPTOP-THASAN systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+ LAPTOP-THASAN systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+ LAPTOP-THASAN systemd[1]: Starting esm-cache.service - Update the local ESM caches...
+ LAPTOP-THASAN systemd[1]: Starting landscape-client.service - Landscape client daemons...
+ LAPTOP-THASAN systemd[1]: Starting logrotate.service - Rotate log files...
+ LAPTOP-THASAN systemd[1]: Starting man-db.service - Daily man-db regeneration...
+ LAPTOP-THASAN systemd[1]: Starting motd-news.service - Message of the Day...
+ LAPTOP-THASAN systemd[1]: Starting packagekit.service - PackageKit Daemon...
+ LAPTOP-THASAN systemd[1]: Starting polkit.service - Authorization Manager...
+ LAPTOP-THASAN systemd[1]: Starting postfix@-.service - Postfix Mail Transport Agent (instance -)...
+ LAPTOP-THASAN systemd[1]: Starting rsyslog.service - System Logging Service...
+ LAPTOP-THASAN systemd[1]: Starting setvtrgb.service - Set console scheme...
+ LAPTOP-THASAN systemd[1]: Starting snapd.seeded.service - Wait until snapd is fully seeded...
+ LAPTOP-THASAN systemd[1]: Starting snapd.service - Snap Daemon...
+ LAPTOP-THASAN systemd[1]: Starting snapd.socket - Socket activation for snappy daemon...
+ LAPTOP-THASAN systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+ LAPTOP-THASAN systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+ LAPTOP-THASAN systemd[1]: Starting systemd-logind.service - User Login Management...
+ LAPTOP-THASAN systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+ LAPTOP-THASAN systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+ LAPTOP-THASAN systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-setup.service - Create Volatile Files and Directories...
+ LAPTOP-THASAN systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+ LAPTOP-THASAN systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+ LAPTOP-THASAN systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+ LAPTOP-THASAN systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+ LAPTOP-THASAN systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+ LAPTOP-THASAN systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+ LAPTOP-THASAN systemd[1]: Starting wsl-pro.service - Bridge to Ubuntu Pro agent on Windows...
+ LAPTOP-THASAN systemd[1]: Startup finished in 1.705s.
+ LAPTOP-THASAN systemd[1]: Stopped rsyslog.service - System Logging Service.
+ LAPTOP-THASAN systemd[1]: Stopping rsyslog.service - System Logging Service...
+ LAPTOP-THASAN systemd[1]: apparmor.service - Load AppArmor profiles was skipped because of an unmet condition check (ConditionSecurity=apparmor).
+ LAPTOP-THASAN systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+ LAPTOP-THASAN systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+ LAPTOP-THASAN systemd[1]: apport.service - automatic crash report generation was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: apt-daily.service - Daily apt download activities was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: apt-daily.service: Consumed 15.462s CPU time.
+ LAPTOP-THASAN systemd[1]: apt-daily.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: apt-news.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: dmesg.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: e2scrub_reap.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: esm-cache.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+ LAPTOP-THASAN systemd[1]: fstrim.timer - Discard unused filesystem blocks once a week was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+ LAPTOP-THASAN systemd[1]: landscape-client.service: Skipped due to 'exec-condition'.
+ LAPTOP-THASAN systemd[1]: ldconfig.service - Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: logrotate.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: man-db.service - Daily man-db regeneration was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: man-db.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: motd-news.service: Consumed 1.726s CPU time.
+ LAPTOP-THASAN systemd[1]: motd-news.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: networkd-dispatcher.service - Dispatcher daemon for systemd-networkd was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: packagekit.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: postfix.service - Postfix Mail Transport Agent was skipped because of an unmet condition check (ConditionPathExists=/etc/postfix/main.cf).
+ LAPTOP-THASAN systemd[1]: postfix@-.service: Control process exited, code=exited, status=1/FAILURE
+ LAPTOP-THASAN systemd[1]: postfix@-.service: Failed with result 'exit-code'.
+ LAPTOP-THASAN systemd[1]: rsyslog.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 198 (rsyslogd) on client request.
+ LAPTOP-THASAN systemd[1]: snapd.apparmor.service - Load AppArmor profiles managed internally by snapd was skipped because of an unmet condition check (ConditionSecurity=apparmor).
+ LAPTOP-THASAN systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: snapd.core-fixup.service - Automatically repair incorrect owner/permissions on core devices was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: snapd.recovery-chooser-trigger.service - Wait for the Ubuntu Core chooser trigger was skipped because of an unmet condition check (ConditionPathExistsGlob=/dev/input/event*).
+ LAPTOP-THASAN systemd[1]: snapd.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: snapd.snap-repair.timer - Timer to automatically fetch and run repair assertions was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: ssl-cert.service - Generate snakeoil SSL keypair was skipped because of an unmet condition check (ConditionPathExists=!/etc/ssl/private/ssl-cert-snakeoil.key).
+ LAPTOP-THASAN systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+ LAPTOP-THASAN systemd[1]: systemd-journal-catalog-update.service - Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+ LAPTOP-THASAN systemd[1]: systemd-machine-id-commit.service - Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+ LAPTOP-THASAN systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+ LAPTOP-THASAN systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+ LAPTOP-THASAN systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: systemd-timedated.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: systemd-update-done.service - Update is Completed was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: tmp-syscheck\x2dmountpoint\x2d143848935.mount: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: ua-reboot-cmds.service - Ubuntu Pro reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+ LAPTOP-THASAN systemd[1]: ua-timer.timer - Ubuntu Pro Timer for running repeated jobs was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+ LAPTOP-THASAN systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: wslg.service - WSLg Remount Service was skipped because of an unmet condition check (ConditionPathExists=!/tmp/.X11-unix/X0).
+ LAPTOP-THASAN systemd[349]: Created slice app.slice - User Application Slice.
+ LAPTOP-THASAN systemd[349]: Finished wslg-session.service - WSLg user service.
+ LAPTOP-THASAN systemd[349]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+ LAPTOP-THASAN systemd[349]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+ LAPTOP-THASAN systemd[349]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+ LAPTOP-THASAN systemd[349]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+ LAPTOP-THASAN systemd[349]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+ LAPTOP-THASAN systemd[349]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+ LAPTOP-THASAN systemd[349]: Listening on keyboxd.socket - GnuPG public key management service.
+ LAPTOP-THASAN systemd[349]: Listening on pk-debconf-helper.socket - debconf communication socket.
+ LAPTOP-THASAN systemd[349]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+ LAPTOP-THASAN systemd[349]: Queued start job for default target default.target.
+ LAPTOP-THASAN systemd[349]: Reached target basic.target - Basic System.
+ LAPTOP-THASAN systemd[349]: Reached target default.target - Main User Target.
+ LAPTOP-THASAN systemd[349]: Reached target paths.target - Paths.
+ LAPTOP-THASAN systemd[349]: Reached target sockets.target - Sockets.
+ LAPTOP-THASAN systemd[349]: Reached target timers.target - Timers.
+ LAPTOP-THASAN systemd[349]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+ LAPTOP-THASAN systemd[349]: Starting dbus.socket - D-Bus User Message Bus Socket...
+ LAPTOP-THASAN systemd[349]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+ LAPTOP-THASAN systemd[349]: Starting wslg-session.service - WSLg user service...
+ LAPTOP-THASAN systemd[349]: Startup finished in 155ms.
+ LAPTOP-THASAN systemd[349]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/thasa/.launchpadlib/api.launchpad.net/cache).
+ LAPTOP-THASAN unknown: 
+ LAPTOP-THASAN unknown: Operation canceled @p9io.cpp:258 (AcceptAsync)
+ LAPTOP-THASAN unknown: WSL (215) ERROR: CheckConnection: getaddrinfo() failed: -5
+ LAPTOP-THASAN useradd[1452]: new user: name=msmtp, UID=106, GID=111, home=/var/lib/msmtp, shell=/usr/sbin/nologin, from=/dev/pts/3
+ LAPTOP-THASAN useradd[939]: new user: name=postfix, UID=105, GID=109, home=/var/spool/postfix, shell=/usr/sbin/nologin, from=none
+ LAPTOP-THASAN wsl-pro-service[175]: DEBUG Building new daemon
+ LAPTOP-THASAN wsl-pro-service[175]: DEBUG Debug mode is enabled
+ LAPTOP-THASAN wsl-pro-service[175]: DEBUG Ready state sent to systemd
+ LAPTOP-THASAN wsl-pro-service[175]: DEBUG Updated systemd status to "Connecting"
+ LAPTOP-THASAN wsl-pro-service[175]: DEBUG Updated systemd status to "Not connected: waiting to retry"
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Daemon: connecting to Windows Agent
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Reconnecting to Windows host in 1 seconds
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Reconnecting to Windows host in 16 seconds
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Reconnecting to Windows host in 2 seconds
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Reconnecting to Windows host in 32 seconds
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Reconnecting to Windows host in 4 seconds
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Reconnecting to Windows host in 60 seconds
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Reconnecting to Windows host in 8 seconds
+ LAPTOP-THASAN wsl-pro-service[175]: INFO Starting WSL Pro Service version v0.1.4
+ LAPTOP-THASAN wsl-pro-service[175]: WARNING Daemon: could not connect to Windows Agent: could not get address: could not read agent port file "/mnt/c/Users/thasa/.ubuntupro/.address": open /mnt/c/Users/thasa/.ubuntupro/.address: no such file or directory
+ LAPTOP-THASAN (cron)[157]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+ LAPTOP-THASAN (systemd)[405]: pam_unix(systemd-user:session): session opened for user thasa(uid=1000) by thasa(uid=0)
+ LAPTOP-THASAN 50-motd-news[591]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+ LAPTOP-THASAN 50-motd-news[591]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+ LAPTOP-THASAN 50-motd-news[591]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+ LAPTOP-THASAN 50-motd-news[798]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+ LAPTOP-THASAN 50-motd-news[798]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+ LAPTOP-THASAN 50-motd-news[798]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+ LAPTOP-THASAN CRON[1077]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[1077]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[1078]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[1218]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[1218]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[1219]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[1879]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[1879]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[1880]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[1995]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[1995]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[1996]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[2227]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[2227]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[2228]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[2311]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[2311]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[2312]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[2495]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[2495]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[2496]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[2569]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[2569]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[2570]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[829]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[829]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[830]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN Exception: 
+ LAPTOP-THASAN PackageKit[1595]: daemon quit
+ LAPTOP-THASAN PackageKit[1595]: daemon start
+ LAPTOP-THASAN cron[157]: (CRON) INFO (Running @reboot jobs)
+ LAPTOP-THASAN cron[157]: (CRON) INFO (pidfile fd = 3)
+ LAPTOP-THASAN dbus-daemon[158]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.11' (uid=0 pid=1591 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="kernel")
+ LAPTOP-THASAN dbus-daemon[158]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.13' (uid=0 pid=1595 comm="/usr/libexec/packagekitd" label="kernel")
+ LAPTOP-THASAN dbus-daemon[158]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.4' (uid=0 pid=168 comm="/usr/lib/snapd/snapd" label="kernel")
+ LAPTOP-THASAN dbus-daemon[158]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+ LAPTOP-THASAN dbus-daemon[158]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+ LAPTOP-THASAN dbus-daemon[158]: [system] Successfully activated service 'org.freedesktop.timedate1'
+ LAPTOP-THASAN kernel:         Rude variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:         Tracing variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:         Trampoline variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:     /init
+ LAPTOP-THASAN kernel:     HOME=/
+ LAPTOP-THASAN kernel:     TERM=linux
+ LAPTOP-THASAN kernel:     WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel:     WSL_ROOT_INIT=1
+ LAPTOP-THASAN kernel:   AMD AuthenticAMD
+ LAPTOP-THASAN kernel:   DMA32    [mem 0x0000000000001000-0x00000000ffffffff]
+ LAPTOP-THASAN kernel:   Device   empty
+ LAPTOP-THASAN kernel:   Intel GenuineIntel
+ LAPTOP-THASAN kernel:   Normal   [mem 0x0000000100000000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000000200000-0x00000000f7ffffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000100000000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel:   with arguments:
+ LAPTOP-THASAN kernel:   with environment:
+ LAPTOP-THASAN kernel: ... bit width:              48
+ LAPTOP-THASAN kernel: ... event mask:             0001000f000000ff
+ LAPTOP-THASAN kernel: ... fixed-purpose events:   4
+ LAPTOP-THASAN kernel: ... generic registers:      8
+ LAPTOP-THASAN kernel: ... max period:             00007fffffffffff
+ LAPTOP-THASAN kernel: ... value mask:             0000ffffffffffff
+ LAPTOP-THASAN kernel: ... version:                5
+ LAPTOP-THASAN kernel: .... node  #0, CPUs:      #2 #4 #6 #1 #3 #5 #7
+ LAPTOP-THASAN kernel: 9p: Installing v9fs 9p2000 file system support
+ LAPTOP-THASAN kernel: 9pnet: Installing 9P2000 support
+ LAPTOP-THASAN kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+ LAPTOP-THASAN kernel: ACPI: AC: AC Adapter [AC1] (off-line)
+ LAPTOP-THASAN kernel: ACPI: APIC 0x000000000011F604 000088 (v04 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Module Device)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Processor Aggregator Device)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Processor Device)
+ LAPTOP-THASAN kernel: ACPI: Core revision 20230628
+ LAPTOP-THASAN kernel: ACPI: DSDT 0x00000000001011B8 01E11C (v02 MSFTVM DSDT01   00000001 INTL 20230628)
+ LAPTOP-THASAN kernel: ACPI: Early table checksum verification disabled
+ LAPTOP-THASAN kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+ LAPTOP-THASAN kernel: ACPI: FACP 0x0000000000101000 000114 (v06 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: FACS 0x0000000000101114 000040
+ LAPTOP-THASAN kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+ LAPTOP-THASAN kernel: ACPI: Interpreter enabled
+ LAPTOP-THASAN kernel: ACPI: LAPIC_NMI (acpi_id[0x01] dfl dfl lint[0x1])
+ LAPTOP-THASAN kernel: ACPI: OEM0 0x0000000000101154 000064 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: PM-Timer IO Port: 0x408
+ LAPTOP-THASAN kernel: ACPI: PM: (supports S0 S5)
+ LAPTOP-THASAN kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VRTUAL)
+ LAPTOP-THASAN kernel: ACPI: Reserving APIC table memory at [mem 0x11f604-0x11f68b]
+ LAPTOP-THASAN kernel: ACPI: Reserving DSDT table memory at [mem 0x1011b8-0x11f2d3]
+ LAPTOP-THASAN kernel: ACPI: Reserving FACP table memory at [mem 0x101000-0x101113]
+ LAPTOP-THASAN kernel: ACPI: Reserving FACS table memory at [mem 0x101114-0x101153]
+ LAPTOP-THASAN kernel: ACPI: Reserving OEM0 table memory at [mem 0x101154-0x1011b7]
+ LAPTOP-THASAN kernel: ACPI: Reserving SRAT table memory at [mem 0x11f2d4-0x11f603]
+ LAPTOP-THASAN kernel: ACPI: SRAT 0x000000000011F2D4 000330 (v02 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0xf7ffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x1fcbfffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1000000000-0xffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x10000000000-0x1ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000000-0x1fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1000000000000-0x1ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1fcc00000-0x9ffdfffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x20000000000-0x3ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x200000000000-0x3fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x2000000000000-0x3ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x40000000000-0x7ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x400000000000-0x7fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x4000000000000-0x7ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x80000000000-0xfffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x800000000000-0xffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x8000000000000-0xfffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+ LAPTOP-THASAN kernel: ACPI: Using IOAPIC for interrupt routing
+ LAPTOP-THASAN kernel: ACPI: XSDT 0x0000000000100000 000044 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+ LAPTOP-THASAN kernel: ACPI: battery: Slot [BAT1] (battery present)
+ LAPTOP-THASAN kernel: ACPI: bus type drm_connector registered
+ LAPTOP-THASAN kernel: AES CTR mode by8 optimization enabled
+ LAPTOP-THASAN kernel: AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+ LAPTOP-THASAN kernel: APIC: Static calls initialized
+ LAPTOP-THASAN kernel: APIC: Switch to symmetric I/O mode setup
+ LAPTOP-THASAN kernel: APIC: Switched APIC routing to: physical x2apic
+ LAPTOP-THASAN kernel: APIC: send_IPI() replaced with hv_send_ipi()
+ LAPTOP-THASAN kernel: APIC: send_IPI_all() replaced with hv_send_ipi_all()
+ LAPTOP-THASAN kernel: APIC: send_IPI_allbutself() replaced with hv_send_ipi_allbutself()
+ LAPTOP-THASAN kernel: APIC: send_IPI_mask() replaced with hv_send_ipi_mask()
+ LAPTOP-THASAN kernel: APIC: send_IPI_mask_allbutself() replaced with hv_send_ipi_mask_allbutself()
+ LAPTOP-THASAN kernel: APIC: send_IPI_self() replaced with hv_send_ipi_self()
+ LAPTOP-THASAN kernel: AVX2 version of gcm_enc/dec engaged.
+ LAPTOP-THASAN kernel: Adding 2097152k swap on /dev/sdc.  Priority:-2 extents:1 across:2097152k 
+ LAPTOP-THASAN kernel: Asymmetric key parser 'x509' registered
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x00000000000e0000-0x00000000000e0fff] reserved
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000001fffff] ACPI data
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000200000-0x00000000f7ffffff] usable
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000100000000-0x00000001fcbfffff] usable
+ LAPTOP-THASAN kernel: BIOS-provided physical RAM map:
+ LAPTOP-THASAN kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+ LAPTOP-THASAN kernel: Booting paravirtualized kernel on Hyper-V
+ LAPTOP-THASAN kernel: Bridge firewalling registered
+ LAPTOP-THASAN kernel: Built 1 zonelists, mobility grouping on.  Total pages: 2018000
+ LAPTOP-THASAN kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 4838.40 BogoMIPS (lpj=9676800)
+ LAPTOP-THASAN kernel: Command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=8 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel: Console: colour dummy device 80x25
+ LAPTOP-THASAN kernel: Copyright (c) 1999-2008 LSI Corporation
+ LAPTOP-THASAN kernel: DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+ LAPTOP-THASAN kernel: DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+ LAPTOP-THASAN kernel: DMI not present or invalid.
+ LAPTOP-THASAN kernel: Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+ LAPTOP-THASAN kernel: Dynamic Preempt: none
+ LAPTOP-THASAN kernel: EDAC MC: Ver: 3.0.0
+ LAPTOP-THASAN kernel: EXT4-fs (sda): mounted filesystem 00000000-0000-0000-0000-000000000000 ro without journal. Quota mode: none.
+ LAPTOP-THASAN kernel: EXT4-fs (sdb): mounted filesystem 00000000-0000-0000-0000-000000000000 ro without journal. Quota mode: none.
+ LAPTOP-THASAN kernel: EXT4-fs (sdd): mounted filesystem 1eb82b94-0a29-4f31-92ce-1fd027858b7b r/w with ordered data mode. Quota mode: none.
+ LAPTOP-THASAN kernel: Early memory node ranges
+ LAPTOP-THASAN kernel: FS-Cache: Loaded
+ LAPTOP-THASAN kernel: Failed to register legacy timer interrupt
+ LAPTOP-THASAN kernel: Fallback order for Node 0: 0 
+ LAPTOP-THASAN kernel: Free page reporting enabled
+ LAPTOP-THASAN kernel: Freeing SMP alternatives memory: 44K
+ LAPTOP-THASAN kernel: Freeing initrd memory: 2672K
+ LAPTOP-THASAN kernel: Freeing unused decrypted memory: 2028K
+ LAPTOP-THASAN kernel: Freeing unused kernel image (initmem) memory: 4492K
+ LAPTOP-THASAN kernel: Freeing unused kernel image (rodata/data gap) memory: 840K
+ LAPTOP-THASAN kernel: Fusion MPT SAS Host driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT SPI Host driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT base driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT misc device (ioctl) driver 3.04.20
+ LAPTOP-THASAN kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+ LAPTOP-THASAN kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+ LAPTOP-THASAN kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+ LAPTOP-THASAN kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+ LAPTOP-THASAN kernel: Hyper-V: Disabling IBT because of Hyper-V bug
+ LAPTOP-THASAN kernel: Hyper-V: Host Build 10.0.26100.7171-7-0
+ LAPTOP-THASAN kernel: Hyper-V: LAPIC Timer Frequency: 0xc3500
+ LAPTOP-THASAN kernel: Hyper-V: Nested features: 0x3e0101
+ LAPTOP-THASAN kernel: Hyper-V: PV spinlocks enabled
+ LAPTOP-THASAN kernel: Hyper-V: Using IPI hypercalls
+ LAPTOP-THASAN kernel: Hyper-V: Using hypercall for remote TLB flush
+ LAPTOP-THASAN kernel: Hyper-V: enabling crash_kexec_post_notifiers
+ LAPTOP-THASAN kernel: Hyper-V: privilege flags low 0xae7f, high 0x3b8030, hints 0x9a4e24, misc 0xe4bed7b6
+ LAPTOP-THASAN kernel: Hypervisor detected: Microsoft Hyper-V
+ LAPTOP-THASAN kernel: IOAPIC[0]: apic_id 8, version 17, address 0xfec00000, GSI 0-23
+ LAPTOP-THASAN kernel: IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+ LAPTOP-THASAN kernel: IPI shorthand broadcast: enabled
+ LAPTOP-THASAN kernel: In-situ OAM (IOAM) with IPv6
+ LAPTOP-THASAN kernel: Initialise system trusted keyrings
+ LAPTOP-THASAN kernel: Initmem setup node 0 [mem 0x0000000000001000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel: Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+ LAPTOP-THASAN kernel: KERNEL supported cpus:
+ LAPTOP-THASAN kernel: Kernel command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=8 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel: Key type asymmetric registered
+ LAPTOP-THASAN kernel: Key type blacklist registered
+ LAPTOP-THASAN kernel: LSM: initializing lsm=capability,landlock,yama,safesetid,selinux,integrity
+ LAPTOP-THASAN kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+ LAPTOP-THASAN kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+ LAPTOP-THASAN kernel: Linux agpgart interface v0.103
+ LAPTOP-THASAN kernel: Linux version 6.6.87.2-microsoft-standard-WSL2 (root@439a258ad544) (gcc (GCC) 11.2.0, GNU ld (GNU Binutils) 2.37) #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+ LAPTOP-THASAN kernel: Loading compiled-in X.509 certificates
+ LAPTOP-THASAN kernel: Loading iSCSI transport class v2.0-870.
+ LAPTOP-THASAN kernel: MTRR map: 5 entries (4 fixed + 1 variable; max 20), built from 8 variable MTRRs
+ LAPTOP-THASAN kernel: Memory: 4074588K/8202876K available (20480K kernel code, 3457K rwdata, 13496K rodata, 4492K init, 6208K bss, 262400K reserved, 0K cma-reserved)
+ LAPTOP-THASAN kernel: Microchip SmartPQI Driver (v2.1.24-046)
+ LAPTOP-THASAN kernel: Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Movable zone start for each node
+ LAPTOP-THASAN kernel: NET: Registered PF_INET protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_INET6 protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_PACKET protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_VSOCK protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_XDP protocol family
+ LAPTOP-THASAN kernel: NODE_DATA(0) allocated [mem 0x1fcbdd000-0x1fcbfefff]
+ LAPTOP-THASAN kernel: NR_IRQS: 524544, nr_irqs: 488, preallocated irqs: 0
+ LAPTOP-THASAN kernel: NUMA: Node 0 [mem 0x00000000-0xf7ffffff] + [mem 0x100000000-0x1fcbfffff] -> [mem 0x00000000-0x1fcbfffff]
+ LAPTOP-THASAN kernel: NX (Execute Disable) protection: active
+ LAPTOP-THASAN kernel: NetLabel:  domain hash size = 128
+ LAPTOP-THASAN kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+ LAPTOP-THASAN kernel: NetLabel:  unlabeled traffic allowed by default
+ LAPTOP-THASAN kernel: NetLabel: Initializing
+ LAPTOP-THASAN kernel: On node 0, zone DMA32: 1 pages in unavailable ranges
+ LAPTOP-THASAN kernel: On node 0, zone DMA32: 352 pages in unavailable ranges
+ LAPTOP-THASAN kernel: On node 0, zone Normal: 13312 pages in unavailable ranges
+ LAPTOP-THASAN kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+ LAPTOP-THASAN kernel: PCI: CLS 0 bytes, default 64
+ LAPTOP-THASAN kernel: PCI: Fatal: No config space access function found
+ LAPTOP-THASAN kernel: PCI: System does not support PCI
+ LAPTOP-THASAN kernel: PCI: Using ACPI for IRQ routing
+ LAPTOP-THASAN kernel: PCI: Using E820 reservations for host bridge windows
+ LAPTOP-THASAN kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000e0000-0x000e0fff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000e1000-0x000fffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x00100000-0x001fffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xffffffff]
+ LAPTOP-THASAN kernel: PPP generic driver version 2.4.2
+ LAPTOP-THASAN kernel: PTP clock support registered
+ LAPTOP-THASAN kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+ LAPTOP-THASAN kernel: Performance Events:  AnyThread deprecated, Icelake events, 32-deep LBR, full-width counters, Intel PMU driver.
+ LAPTOP-THASAN kernel: Policy zone: Normal
+ LAPTOP-THASAN kernel: RAMDISK: [mem 0x04be4000-0x04e7ffff]
+ LAPTOP-THASAN kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+ LAPTOP-THASAN kernel: RAS: Correctable Errors collector initialized.
+ LAPTOP-THASAN kernel: RCU Tasks Rude: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RCU Tasks Trace: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RETBleed: Mitigation: Enhanced IBRS
+ LAPTOP-THASAN kernel: Run /init as init process
+ LAPTOP-THASAN kernel: SCSI subsystem initialized
+ LAPTOP-THASAN kernel: SELinux:  Initializing.
+ LAPTOP-THASAN kernel: SGI XFS with ACLs, security attributes, realtime, verbose warnings, quota, no debug enabled
+ LAPTOP-THASAN kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x00 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x01 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x02 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x03 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x04 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x05 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x06 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x07 -> Node 0
+ LAPTOP-THASAN kernel: Segment Routing with IPv6
+ LAPTOP-THASAN kernel: Serial: 8250/16550 driver, 8 ports, IRQ sharing enabled
+ LAPTOP-THASAN kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+ LAPTOP-THASAN kernel: Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on vm exit
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+ LAPTOP-THASAN kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+ LAPTOP-THASAN kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+ LAPTOP-THASAN kernel: TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+ LAPTOP-THASAN kernel: TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+ LAPTOP-THASAN kernel: TCP: Hash tables configured (established 65536 bind 65536)
+ LAPTOP-THASAN kernel: TCP: eth0: Driver has suspect GRO implementation, TCP performance may be compromised.
+ LAPTOP-THASAN kernel: TSC deadline timer available
+ LAPTOP-THASAN kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+ LAPTOP-THASAN kernel: Trying to unpack rootfs image as initramfs...
+ LAPTOP-THASAN kernel: UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Unknown kernel command line parameters "WSL_ROOT_INIT=1 WSL_ENABLE_CRASH_DUMP=1", will be passed to user space.
+ LAPTOP-THASAN kernel: Using GB pages for direct mapping
+ LAPTOP-THASAN kernel: Using NULL legacy PIC
+ LAPTOP-THASAN kernel: VFS: Disk quotas dquot_6.6.0
+ LAPTOP-THASAN kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+ LAPTOP-THASAN kernel: VMware PVSCSI driver - version 1.0.7.0-k
+ LAPTOP-THASAN kernel: VMware vmxnet3 virtual NIC driver - version 1.7.0.0-k-NAPI
+ LAPTOP-THASAN kernel: Write protecting the kernel read-only data: 34816k
+ LAPTOP-THASAN kernel: Yama: becoming mindful.
+ LAPTOP-THASAN kernel: Zone ranges:
+ LAPTOP-THASAN kernel: [mem 0xf8000000-0xffffffff] available for PCI devices
+ LAPTOP-THASAN kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+ LAPTOP-THASAN kernel: audit: initializing netlink subsys (disabled)
+ LAPTOP-THASAN kernel: audit: type=2000 audit(1763702704.028:1): state=initialized audit_enabled=0 res=1
+ LAPTOP-THASAN kernel: brd: module loaded
+ LAPTOP-THASAN kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+ LAPTOP-THASAN kernel: clk: Disabling unused clocks
+ LAPTOP-THASAN kernel: clocksource: Switched to clocksource tsc
+ LAPTOP-THASAN kernel: clocksource: Switched to clocksource tsc-early
+ LAPTOP-THASAN kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+ LAPTOP-THASAN kernel: clocksource: hyperv_clocksource_msr: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+ LAPTOP-THASAN kernel: clocksource: hyperv_clocksource_tsc_page: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+ LAPTOP-THASAN kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+ LAPTOP-THASAN kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+ LAPTOP-THASAN kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22df1149949, max_idle_ns: 440795312789 ns
+ LAPTOP-THASAN kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22df1149949, max_idle_ns: 440795312789 ns
+ LAPTOP-THASAN kernel: cpuidle: using governor ladder
+ LAPTOP-THASAN kernel: cpuidle: using governor menu
+ LAPTOP-THASAN kernel: cryptd: max_cpu_qlen set to 1000
+ LAPTOP-THASAN kernel: dca service started, version 1.12.1
+ LAPTOP-THASAN kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+ LAPTOP-THASAN kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+ LAPTOP-THASAN kernel: device-mapper: uevent: version 1.0.3
+ LAPTOP-THASAN kernel: devtmpfs: initialized
+ LAPTOP-THASAN kernel: drop_monitor: Initializing network drop monitor service
+ LAPTOP-THASAN kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+ LAPTOP-THASAN kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+ LAPTOP-THASAN kernel: ftrace: allocated 218 pages with 5 groups
+ LAPTOP-THASAN kernel: ftrace: allocating 55808 entries in 218 pages
+ LAPTOP-THASAN kernel: fuse: init (API version 7.39)
+ LAPTOP-THASAN kernel: futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: hv_balloon: Cold memory discard hint enabled with order 9
+ LAPTOP-THASAN kernel: hv_balloon: Max. dynamic memory size: 8012 MB
+ LAPTOP-THASAN kernel: hv_balloon: Using Dynamic Memory protocol version 2.0
+ LAPTOP-THASAN kernel: hv_pci a647ddaa-fd4e-4828-ae20-5c8e5ab96ff2: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci a647ddaa-fd4e-4828-ae20-5c8e5ab96ff2: PCI host bridge to bus fd4e:00
+ LAPTOP-THASAN kernel: hv_pci c4b741f5-5582-4c98-8f8b-2e082933c396: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci c4b741f5-5582-4c98-8f8b-2e082933c396: PCI host bridge to bus 5582:00
+ LAPTOP-THASAN kernel: hv_pci dacbe69a-2550-4088-bd7a-b8db3810fec8: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci dacbe69a-2550-4088-bd7a-b8db3810fec8: PCI host bridge to bus 2550:00
+ LAPTOP-THASAN kernel: hv_utils: Registering HyperV Utility Driver
+ LAPTOP-THASAN kernel: hv_utils: TimeSync IC version 4.0
+ LAPTOP-THASAN kernel: hv_vmbus: Unknown GUID: 6e382d18-3336-4f4b-acc4-2b7703d4df4a
+ LAPTOP-THASAN kernel: hv_vmbus: Unknown GUID: dde9cbc0-5060-4436-9448-ea1254a5d177
+ LAPTOP-THASAN kernel: hv_vmbus: Vmbus version:5.3
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver dxgkrnl
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_balloon
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_netvsc
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_pci
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_sock
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_storvsc
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_utils
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hyperv_keyboard
+ LAPTOP-THASAN kernel: i8042: PNP: No PS/2 controller found.
+ LAPTOP-THASAN kernel: ima: Allocated hash algorithm: sha256
+ LAPTOP-THASAN kernel: ima: No TPM chip found, activating TPM-bypass!
+ LAPTOP-THASAN kernel: ima: No architecture policies found
+ LAPTOP-THASAN kernel: intel_pstate: CPU model not supported
+ LAPTOP-THASAN kernel: intel_rapl_msr: PL4 support detected.
+ LAPTOP-THASAN kernel: io scheduler kyber registered
+ LAPTOP-THASAN kernel: io scheduler mq-deadline registered
+ LAPTOP-THASAN kernel: ioatdma: Intel(R) QuickData Technology Driver 5.00
+ LAPTOP-THASAN kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+ LAPTOP-THASAN kernel: iommu: Default domain type: Translated
+ LAPTOP-THASAN kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+ LAPTOP-THASAN kernel: kvm_intel: Using Hyper-V Enlightened VMCS
+ LAPTOP-THASAN kernel: landlock: Up and running.
+ LAPTOP-THASAN kernel: last_pfn = 0x1fcc00 max_arch_pfn = 0x400000000
+ LAPTOP-THASAN kernel: last_pfn = 0xf8000 max_arch_pfn = 0x400000000
+ LAPTOP-THASAN kernel: libata version 3.00 loaded.
+ LAPTOP-THASAN kernel: loop: module loaded
+ LAPTOP-THASAN kernel: mem auto-init: stack:off, heap alloc:on, heap free:off
+ LAPTOP-THASAN kernel: mini_init (200): drop_caches: 1
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+ LAPTOP-THASAN kernel: mptctl: /dev/mptctl @ (major,minor=10,220)
+ LAPTOP-THASAN kernel: mptctl: Registered with Fusion MPT base driver
+ LAPTOP-THASAN kernel: node 0 deferred pages initialised in 12ms
+ LAPTOP-THASAN kernel: pci 2550:00:00.0: BAR 0: assigned [mem 0xe00000000-0xe00000fff 64bit]
+ LAPTOP-THASAN kernel: pci 2550:00:00.0: BAR 2: assigned [mem 0xe00001000-0xe00001fff 64bit]
+ LAPTOP-THASAN kernel: pci 2550:00:00.0: BAR 4: assigned [mem 0xc00000000-0xdffffffff 64bit]
+ LAPTOP-THASAN kernel: pci 2550:00:00.0: [1af4:105a] type 00 class 0x088000
+ LAPTOP-THASAN kernel: pci 2550:00:00.0: reg 0x10: [mem 0xe00000000-0xe00000fff 64bit]
+ LAPTOP-THASAN kernel: pci 2550:00:00.0: reg 0x18: [mem 0xe00001000-0xe00001fff 64bit]
+ LAPTOP-THASAN kernel: pci 2550:00:00.0: reg 0x20: [mem 0xc00000000-0xdffffffff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 0: assigned [mem 0x9ffe00000-0x9ffe00fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 2: assigned [mem 0x9ffe01000-0x9ffe01fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 4: assigned [mem 0x9ffe02000-0x9ffe02fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: [1af4:1043] type 00 class 0x010000
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x10: [mem 0x9ffe00000-0x9ffe00fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x18: [mem 0x9ffe01000-0x9ffe01fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x20: [mem 0x9ffe02000-0x9ffe02fff 64bit]
+ LAPTOP-THASAN kernel: pci fd4e:00:00.0: [1414:008e] type 00 class 0x030200
+ LAPTOP-THASAN kernel: pci_bus 2550:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus 2550:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pci_bus 2550:00: root bus resource [mem 0xc00000000-0xe00001fff window]
+ LAPTOP-THASAN kernel: pci_bus 5582:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus 5582:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pci_bus 5582:00: root bus resource [mem 0x9ffe00000-0x9ffe02fff window]
+ LAPTOP-THASAN kernel: pci_bus fd4e:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus fd4e:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pcpu-alloc: [0] 0 1 2 3 4 5 6 7 
+ LAPTOP-THASAN kernel: pcpu-alloc: s221184 r8192 d28672 u262144 alloc=1*2097152
+ LAPTOP-THASAN kernel: percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u262144
+ LAPTOP-THASAN kernel: pid_max: default: 32768 minimum: 301
+ LAPTOP-THASAN kernel: pinctrl core: initialized pinctrl subsystem
+ LAPTOP-THASAN kernel: pnp: PnP ACPI init
+ LAPTOP-THASAN kernel: pnp: PnP ACPI: found 1 devices
+ LAPTOP-THASAN kernel: pps_core: LinuxPPS API ver. 1 registered
+ LAPTOP-THASAN kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+ LAPTOP-THASAN kernel: printk: console [hvc0] enabled
+ LAPTOP-THASAN kernel: pulseaudio[248]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+ LAPTOP-THASAN kernel: random: crng init done
+ LAPTOP-THASAN kernel: rcu:         Max phase no-delay instances is 1000.
+ LAPTOP-THASAN kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+ LAPTOP-THASAN kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+ LAPTOP-THASAN kernel: rcu: Hierarchical SRCU implementation.
+ LAPTOP-THASAN kernel: rcu: Preemptible hierarchical RCU implementation.
+ LAPTOP-THASAN kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+ LAPTOP-THASAN kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+ LAPTOP-THASAN kernel: rdac: device handler registered
+ LAPTOP-THASAN kernel: registered taskstats version 1
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: RTC can wake from S4
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: alarms up to one month, 114 bytes nvram
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: registered as rtc0
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: setting system clock to 2025-11-21T05:25:04 UTC (1763702704)
+ LAPTOP-THASAN kernel: sched_clock: Marking stable (324464071, 4172506)->(352622488, -23985911)
+ LAPTOP-THASAN kernel: scsi 0:0:0:0: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:1: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:2: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:3: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi host0: storvsc_host_t
+ LAPTOP-THASAN kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] 795536 512-byte logical blocks: (407 MB/388 MiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Mode Sense: 0f 00 80 00
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Write Protect is on
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:1: Attached scsi generic sg1 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] 381016 512-byte logical blocks: (195 MB/186 MiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Mode Sense: 0f 00 80 00
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Write Protect is on
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:2: Attached scsi generic sg2 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] 4096-byte physical blocks
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] 4194312 512-byte logical blocks: (2.15 GB/2.00 GiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Mode Sense: 0f 00 00 00
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Write Protect is off
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:3: Attached scsi generic sg3 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] 2147483648 512-byte logical blocks: (1.10 TB/1.00 TiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] 4096-byte physical blocks
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Mode Sense: 0f 00 00 00
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Write Protect is off
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:8 nr_cpu_ids:8 nr_node_ids:1
+ LAPTOP-THASAN kernel: signal: max sigframe size: 3632
+ LAPTOP-THASAN kernel: smp: Bringing up secondary CPUs ...
+ LAPTOP-THASAN kernel: smp: Brought up 1 node, 8 CPUs
+ LAPTOP-THASAN kernel: smpboot: Allowing 8 CPUs, 0 hotplug CPUs
+ LAPTOP-THASAN kernel: smpboot: CPU0: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (family: 0x6, model: 0x8c, stepping: 0x1)
+ LAPTOP-THASAN kernel: smpboot: Max logical packages: 1
+ LAPTOP-THASAN kernel: smpboot: Total of 8 processors activated (38707.20 BogoMIPS)
+ LAPTOP-THASAN kernel: smpboot: x86: Booting SMP configuration:
+ LAPTOP-THASAN kernel: software IO TLB: area num 8.
+ LAPTOP-THASAN kernel: software IO TLB: mapped [mem 0x00000000f4000000-0x00000000f8000000] (64MB)
+ LAPTOP-THASAN kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+ LAPTOP-THASAN kernel: tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+ LAPTOP-THASAN kernel: thermal_sys: Registered thermal governor 'step_wise'
+ LAPTOP-THASAN kernel: thermal_sys: Registered thermal governor 'user_space'
+ LAPTOP-THASAN kernel: tsc: Detected 2419.200 MHz processor
+ LAPTOP-THASAN kernel: tun: Universal TUN/TAP device driver, 1.6
+ LAPTOP-THASAN kernel: vgaarb: loaded
+ LAPTOP-THASAN kernel: virtio-pci 2550:00:00.0: enabling device (0000 -> 0002)
+ LAPTOP-THASAN kernel: virtio-pci 5582:00:00.0: enabling device (0000 -> 0002)
+ LAPTOP-THASAN kernel: virtiofs virtio1: Cache len: 0x200000000 @ 0xc00000000
+ LAPTOP-THASAN kernel: workingset: timestamp_bits=36 max_order=21 bucket_order=0
+ LAPTOP-THASAN kernel: x2apic enabled
+ LAPTOP-THASAN kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+ LAPTOP-THASAN kernel: x86/cpu: User Mode Instruction Prevention (UMIP) activated
+ LAPTOP-THASAN kernel: x86/fpu: Enabled xstate features 0x8e7, context size is 2448 bytes, using 'compacted' format.
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x800: 'Control-flow User registers'
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[11]: 2432, xstate_sizes[11]:   16
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+ LAPTOP-THASAN kernel: x86/mm: Memory block size: 128MB
+ LAPTOP-THASAN landscape-config[162]: Config Path:   /etc/landscape/client.conf
+ LAPTOP-THASAN landscape-config[162]: Data Path      /var/lib/landscape/client
+ LAPTOP-THASAN landscape-config[162]: Registered:    False
+ LAPTOP-THASAN login[361]: PAM adding faulty module: pam_lastlog.so
+ LAPTOP-THASAN login[361]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+ LAPTOP-THASAN login[361]: pam_unix(login:session): session opened for user thasa(uid=1000) by thasa(uid=0)
+ LAPTOP-THASAN polkitd[1600]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+ LAPTOP-THASAN polkitd[1600]: Finished loading, compiling and executing 4 rules
+ LAPTOP-THASAN polkitd[1600]: Loading rules from directory /etc/polkit-1/rules.d
+ LAPTOP-THASAN polkitd[1600]: Loading rules from directory /usr/share/polkit-1/rules.d
+ LAPTOP-THASAN polkitd[1600]: Started polkitd version 124
+ LAPTOP-THASAN rsyslogd[210]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="210" x-info="https://www.rsyslog.com"] start
+ LAPTOP-THASAN rsyslogd[210]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+ LAPTOP-THASAN rsyslogd[210]: rsyslogd's groupid changed to 102
+ LAPTOP-THASAN rsyslogd[210]: rsyslogd's userid changed to 102
+ LAPTOP-THASAN sh[94]: /bin/sh: 1: cannot create /proc/sys/fs/binfmt_misc/WSLInterop-late: Permission denied
+ LAPTOP-THASAN snapd[168]: backends.go:68: AppArmor status: apparmor not enabled
+ LAPTOP-THASAN snapd[168]: daemon stop requested to wait for socket activation
+ LAPTOP-THASAN snapd[168]: daemon.go:250: started snapd/2.68.5+ubuntu24.04.1 (series 16; classic; devmode; wsl) ubuntu/24.04 (amd64) linux/6.6.87.2-microsoft-standa.
+ LAPTOP-THASAN snapd[168]: daemon.go:353: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+ LAPTOP-THASAN snapd[168]: daemon.go:548: gracefully waiting for running hooks
+ LAPTOP-THASAN snapd[168]: daemon.go:550: done waiting for running hooks
+ LAPTOP-THASAN snapd[168]: overlord.go:284: Acquiring state lock file
+ LAPTOP-THASAN snapd[168]: overlord.go:289: Acquired state lock file
+ LAPTOP-THASAN snapd[168]: overlord.go:528: Released state lock file
+ LAPTOP-THASAN sudo[1505]:    thasa : TTY=pts/0 ; PWD=/home/thasa/Missing-Semester/Lecture2 ; USER=root ; COMMAND=/usr/bin/apt install tree
+ LAPTOP-THASAN sudo[1505]: pam_unix(sudo:session): session closed for user root
+ LAPTOP-THASAN sudo[1505]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+ LAPTOP-THASAN systemd-journald[42]: Collecting audit messages is disabled.
+ LAPTOP-THASAN systemd-journald[42]: File /var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55/system.journal corrupted or uncleanly shut down, renaming and replacing.
+ LAPTOP-THASAN systemd-journald[42]: Journal started
+ LAPTOP-THASAN systemd-journald[42]: Received client request to flush runtime journal.
+ LAPTOP-THASAN systemd-journald[42]: Runtime Journal (/run/log/journal/e0af5bf49a0a471abdfbb01564eb1a55) is 8.0M, max 388.2M, 380.2M free.
+ LAPTOP-THASAN systemd-journald[42]: System Journal (/var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55) is 437.6M, max 4.0G, 3.5G free.
+ LAPTOP-THASAN systemd-journald[42]: Time jumped backwards, rotating.
+ LAPTOP-THASAN systemd-journald[42]: Time spent on flushing to /var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55 is 5.289ms for 454 entries.
+ LAPTOP-THASAN systemd-logind[171]: New seat seat0.
+ LAPTOP-THASAN systemd-logind[171]: New session 1 of user thasa.
+ LAPTOP-THASAN systemd-resolved[147]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+ LAPTOP-THASAN systemd-resolved[147]: Clock change detected. Flushing caches.
+ LAPTOP-THASAN systemd-resolved[147]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa corp home internal intranet lan local private test
+ LAPTOP-THASAN systemd-resolved[147]: Positive Trust Anchors:
+ LAPTOP-THASAN systemd-resolved[147]: Using system hostname 'LAPTOP-THASAN'.
+ LAPTOP-THASAN systemd-sysctl[61]: Couldn't write '1' to 'kernel/apparmor_restrict_unprivileged_userns', ignoring: No such file or directory
+ LAPTOP-THASAN systemd-timesyncd[151]: Contacted time server 185.125.190.56:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[151]: Initial clock synchronization to Fri 2025-11-21 00:25:06.294588 EST.
+ LAPTOP-THASAN systemd-timesyncd[151]: Timed out waiting for reply from 185.125.190.56:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[151]: Timed out waiting for reply from 185.125.190.57:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[151]: Timed out waiting for reply from 185.125.190.58:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[151]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-udevd[89]: Using default interface naming scheme 'v255'.
+ LAPTOP-THASAN systemd[1]: Cannot find unit for notify message of PID 315, ignoring.
+ LAPTOP-THASAN systemd[1]: Condition check resulted in landscape-client.service - Landscape client daemons being skipped.
+ LAPTOP-THASAN systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+ LAPTOP-THASAN systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+ LAPTOP-THASAN systemd[1]: Finished console-setup.service - Set console font and keymap.
+ LAPTOP-THASAN systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+ LAPTOP-THASAN systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+ LAPTOP-THASAN systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+ LAPTOP-THASAN systemd[1]: Finished motd-news.service - Message of the Day.
+ LAPTOP-THASAN systemd[1]: Finished setvtrgb.service - Set console scheme.
+ LAPTOP-THASAN systemd[1]: Finished snapd.seeded.service - Wait until snapd is fully seeded.
+ LAPTOP-THASAN systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+ LAPTOP-THASAN systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+ LAPTOP-THASAN systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+ LAPTOP-THASAN systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+ LAPTOP-THASAN systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+ LAPTOP-THASAN systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+ LAPTOP-THASAN systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+ LAPTOP-THASAN systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+ LAPTOP-THASAN systemd[1]: Listening on apport-forward.socket - Unix socket for apport crash forwarding.
+ LAPTOP-THASAN systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+ LAPTOP-THASAN systemd[1]: Listening on snapd.socket - Socket activation for snappy daemon.
+ LAPTOP-THASAN systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management (Varlink).
+ LAPTOP-THASAN systemd[1]: Listening on uuidd.socket - UUID daemon activation socket.
+ LAPTOP-THASAN systemd[1]: Reached target basic.target - Basic System.
+ LAPTOP-THASAN systemd[1]: Reached target getty-pre.target - Preparation for Logins.
+ LAPTOP-THASAN systemd[1]: Reached target getty.target - Login Prompts.
+ LAPTOP-THASAN systemd[1]: Reached target graphical.target - Graphical Interface.
+ LAPTOP-THASAN systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+ LAPTOP-THASAN systemd[1]: Reached target local-fs.target - Local File Systems.
+ LAPTOP-THASAN systemd[1]: Reached target multi-user.target - Multi-User System.
+ LAPTOP-THASAN systemd[1]: Reached target network-online.target - Network is Online.
+ LAPTOP-THASAN systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+ LAPTOP-THASAN systemd[1]: Reached target paths.target - Path Units.
+ LAPTOP-THASAN systemd[1]: Reached target sockets.target - Socket Units.
+ LAPTOP-THASAN systemd[1]: Reached target sysinit.target - System Initialization.
+ LAPTOP-THASAN systemd[1]: Reached target time-set.target - System Time Set.
+ LAPTOP-THASAN systemd[1]: Reached target timers.target - Timer Units.
+ LAPTOP-THASAN systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+ LAPTOP-THASAN systemd[1]: Started apt-daily.timer - Daily apt download activities.
+ LAPTOP-THASAN systemd[1]: Started console-getty.service - Console Getty.
+ LAPTOP-THASAN systemd[1]: Started cron.service - Regular background program processing daemon.
+ LAPTOP-THASAN systemd[1]: Started dbus.service - D-Bus System Message Bus.
+ LAPTOP-THASAN systemd[1]: Started dmesg.service - Save initial kernel messages after boot.
+ LAPTOP-THASAN systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+ LAPTOP-THASAN systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+ LAPTOP-THASAN systemd[1]: Started getty@tty1.service - Getty on tty1.
+ LAPTOP-THASAN systemd[1]: Started logrotate.timer - Daily rotation of log files.
+ LAPTOP-THASAN systemd[1]: Started man-db.timer - Daily man-db regeneration.
+ LAPTOP-THASAN systemd[1]: Started motd-news.timer - Message of the Day.
+ LAPTOP-THASAN systemd[1]: Started packagekit.service - PackageKit Daemon.
+ LAPTOP-THASAN systemd[1]: Started polkit.service - Authorization Manager.
+ LAPTOP-THASAN systemd[1]: Started rsyslog.service - System Logging Service.
+ LAPTOP-THASAN systemd[1]: Started session-1.scope - Session 1 of User thasa.
+ LAPTOP-THASAN systemd[1]: Started snapd.service - Snap Daemon.
+ LAPTOP-THASAN systemd[1]: Started systemd-logind.service - User Login Management.
+ LAPTOP-THASAN systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+ LAPTOP-THASAN systemd[1]: Started systemd-timedated.service - Time & Date Service.
+ LAPTOP-THASAN systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+ LAPTOP-THASAN systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+ LAPTOP-THASAN systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+ LAPTOP-THASAN systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+ LAPTOP-THASAN systemd[1]: Started user@1000.service - User Manager for UID 1000.
+ LAPTOP-THASAN systemd[1]: Started wsl-pro.service - Bridge to Ubuntu Pro agent on Windows.
+ LAPTOP-THASAN systemd[1]: Starting console-setup.service - Set console font and keymap...
+ LAPTOP-THASAN systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+ LAPTOP-THASAN systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+ LAPTOP-THASAN systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+ LAPTOP-THASAN systemd[1]: Starting landscape-client.service - Landscape client daemons...
+ LAPTOP-THASAN systemd[1]: Starting motd-news.service - Message of the Day...
+ LAPTOP-THASAN systemd[1]: Starting packagekit.service - PackageKit Daemon...
+ LAPTOP-THASAN systemd[1]: Starting polkit.service - Authorization Manager...
+ LAPTOP-THASAN systemd[1]: Starting rsyslog.service - System Logging Service...
+ LAPTOP-THASAN systemd[1]: Starting setvtrgb.service - Set console scheme...
+ LAPTOP-THASAN systemd[1]: Starting snapd.seeded.service - Wait until snapd is fully seeded...
+ LAPTOP-THASAN systemd[1]: Starting snapd.service - Snap Daemon...
+ LAPTOP-THASAN systemd[1]: Starting snapd.socket - Socket activation for snappy daemon...
+ LAPTOP-THASAN systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+ LAPTOP-THASAN systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+ LAPTOP-THASAN systemd[1]: Starting systemd-logind.service - User Login Management...
+ LAPTOP-THASAN systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+ LAPTOP-THASAN systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+ LAPTOP-THASAN systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-setup.service - Create Volatile Files and Directories...
+ LAPTOP-THASAN systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+ LAPTOP-THASAN systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+ LAPTOP-THASAN systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+ LAPTOP-THASAN systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+ LAPTOP-THASAN systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+ LAPTOP-THASAN systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+ LAPTOP-THASAN systemd[1]: Starting wsl-pro.service - Bridge to Ubuntu Pro agent on Windows...
+ LAPTOP-THASAN systemd[1]: Startup finished in 1.874s.
+ LAPTOP-THASAN systemd[1]: apparmor.service - Load AppArmor profiles was skipped because of an unmet condition check (ConditionSecurity=apparmor).
+ LAPTOP-THASAN systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+ LAPTOP-THASAN systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+ LAPTOP-THASAN systemd[1]: apport.service - automatic crash report generation was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: apt-daily.service - Daily apt download activities was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: dmesg.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: e2scrub_all.service - Online ext4 Metadata Check for All Filesystems was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: e2scrub_reap.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+ LAPTOP-THASAN systemd[1]: fstrim.timer - Discard unused filesystem blocks once a week was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+ LAPTOP-THASAN systemd[1]: landscape-client.service: Skipped due to 'exec-condition'.
+ LAPTOP-THASAN systemd[1]: ldconfig.service - Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: man-db.service - Daily man-db regeneration was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: motd-news.service: Consumed 2.922s CPU time.
+ LAPTOP-THASAN systemd[1]: motd-news.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: networkd-dispatcher.service - Dispatcher daemon for systemd-networkd was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: packagekit.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: snapd.apparmor.service - Load AppArmor profiles managed internally by snapd was skipped because of an unmet condition check (ConditionSecurity=apparmor).
+ LAPTOP-THASAN systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: snapd.core-fixup.service - Automatically repair incorrect owner/permissions on core devices was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: snapd.recovery-chooser-trigger.service - Wait for the Ubuntu Core chooser trigger was skipped because of an unmet condition check (ConditionPathExistsGlob=/dev/input/event*).
+ LAPTOP-THASAN systemd[1]: snapd.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: snapd.snap-repair.timer - Timer to automatically fetch and run repair assertions was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: ssl-cert.service - Generate snakeoil SSL keypair was skipped because of an unmet condition check (ConditionPathExists=!/etc/ssl/private/ssl-cert-snakeoil.key).
+ LAPTOP-THASAN systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+ LAPTOP-THASAN systemd[1]: systemd-journal-catalog-update.service - Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+ LAPTOP-THASAN systemd[1]: systemd-machine-id-commit.service - Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+ LAPTOP-THASAN systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+ LAPTOP-THASAN systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+ LAPTOP-THASAN systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: systemd-timedated.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: systemd-update-done.service - Update is Completed was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: tmp-syscheck\x2dmountpoint\x2d3336619412.mount: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: ua-reboot-cmds.service - Ubuntu Pro reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+ LAPTOP-THASAN systemd[1]: ua-timer.timer - Ubuntu Pro Timer for running repeated jobs was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+ LAPTOP-THASAN systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: wslg.service - WSLg Remount Service was skipped because of an unmet condition check (ConditionPathExists=!/tmp/.X11-unix/X0).
+ LAPTOP-THASAN systemd[405]: Created slice app.slice - User Application Slice.
+ LAPTOP-THASAN systemd[405]: Finished wslg-session.service - WSLg user service.
+ LAPTOP-THASAN systemd[405]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+ LAPTOP-THASAN systemd[405]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+ LAPTOP-THASAN systemd[405]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+ LAPTOP-THASAN systemd[405]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+ LAPTOP-THASAN systemd[405]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+ LAPTOP-THASAN systemd[405]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+ LAPTOP-THASAN systemd[405]: Listening on keyboxd.socket - GnuPG public key management service.
+ LAPTOP-THASAN systemd[405]: Listening on pk-debconf-helper.socket - debconf communication socket.
+ LAPTOP-THASAN systemd[405]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+ LAPTOP-THASAN systemd[405]: Queued start job for default target default.target.
+ LAPTOP-THASAN systemd[405]: Reached target basic.target - Basic System.
+ LAPTOP-THASAN systemd[405]: Reached target default.target - Main User Target.
+ LAPTOP-THASAN systemd[405]: Reached target paths.target - Paths.
+ LAPTOP-THASAN systemd[405]: Reached target sockets.target - Sockets.
+ LAPTOP-THASAN systemd[405]: Reached target timers.target - Timers.
+ LAPTOP-THASAN systemd[405]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+ LAPTOP-THASAN systemd[405]: Starting dbus.socket - D-Bus User Message Bus Socket...
+ LAPTOP-THASAN systemd[405]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+ LAPTOP-THASAN systemd[405]: Starting wslg-session.service - WSLg user service...
+ LAPTOP-THASAN systemd[405]: Startup finished in 190ms.
+ LAPTOP-THASAN systemd[405]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/thasa/.launchpadlib/api.launchpad.net/cache).
+ LAPTOP-THASAN unknown: 
+ LAPTOP-THASAN unknown: Operation canceled @p9io.cpp:258 (AcceptAsync)
+ LAPTOP-THASAN unknown: WSL (215) ERROR: CheckConnection: getaddrinfo() failed: -5
+ LAPTOP-THASAN wsl-pro-service[180]: DEBUG Building new daemon
+ LAPTOP-THASAN wsl-pro-service[180]: DEBUG Debug mode is enabled
+ LAPTOP-THASAN wsl-pro-service[180]: DEBUG Ready state sent to systemd
+ LAPTOP-THASAN wsl-pro-service[180]: DEBUG Updated systemd status to "Connecting"
+ LAPTOP-THASAN wsl-pro-service[180]: DEBUG Updated systemd status to "Not connected: waiting to retry"
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Daemon: connecting to Windows Agent
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Reconnecting to Windows host in 1 seconds
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Reconnecting to Windows host in 16 seconds
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Reconnecting to Windows host in 2 seconds
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Reconnecting to Windows host in 32 seconds
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Reconnecting to Windows host in 4 seconds
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Reconnecting to Windows host in 60 seconds
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Reconnecting to Windows host in 8 seconds
+ LAPTOP-THASAN wsl-pro-service[180]: INFO Starting WSL Pro Service version v0.1.4
+ LAPTOP-THASAN wsl-pro-service[180]: WARNING Daemon: could not connect to Windows Agent: could not get address: could not read agent port file "/mnt/c/Users/thasa/.ubuntupro/.address": open /mnt/c/Users/thasa/.ubuntupro/.address: no such file or directory
+ LAPTOP-THASAN (cron)[158]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+ LAPTOP-THASAN (systemd)[339]: pam_unix(systemd-user:session): session opened for user thasa(uid=1000) by thasa(uid=0)
+ LAPTOP-THASAN 50-motd-news[555]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+ LAPTOP-THASAN 50-motd-news[555]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+ LAPTOP-THASAN 50-motd-news[555]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+ LAPTOP-THASAN 50-motd-news[823]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+ LAPTOP-THASAN 50-motd-news[823]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+ LAPTOP-THASAN 50-motd-news[823]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+ LAPTOP-THASAN CRON[701]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[701]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[702]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN CRON[792]: pam_unix(cron:session): session closed for user root
+ LAPTOP-THASAN CRON[792]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+ LAPTOP-THASAN CRON[793]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+ LAPTOP-THASAN cron[158]: (CRON) INFO (Running @reboot jobs)
+ LAPTOP-THASAN cron[158]: (CRON) INFO (pidfile fd = 3)
+ LAPTOP-THASAN dbus-daemon[159]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.4' (uid=0 pid=168 comm="/usr/lib/snapd/snapd" label="kernel")
+ LAPTOP-THASAN dbus-daemon[159]: [system] Successfully activated service 'org.freedesktop.timedate1'
+ LAPTOP-THASAN kernel:         Rude variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:         Tracing variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:         Trampoline variant of Tasks RCU enabled.
+ LAPTOP-THASAN kernel:     /init
+ LAPTOP-THASAN kernel:     HOME=/
+ LAPTOP-THASAN kernel:     TERM=linux
+ LAPTOP-THASAN kernel:     WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel:     WSL_ROOT_INIT=1
+ LAPTOP-THASAN kernel:   AMD AuthenticAMD
+ LAPTOP-THASAN kernel:   DMA32    [mem 0x0000000000001000-0x00000000ffffffff]
+ LAPTOP-THASAN kernel:   Device   empty
+ LAPTOP-THASAN kernel:   Intel GenuineIntel
+ LAPTOP-THASAN kernel:   Normal   [mem 0x0000000100000000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000000200000-0x00000000f7ffffff]
+ LAPTOP-THASAN kernel:   node   0: [mem 0x0000000100000000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel:   with arguments:
+ LAPTOP-THASAN kernel:   with environment:
+ LAPTOP-THASAN kernel: ... bit width:              48
+ LAPTOP-THASAN kernel: ... event mask:             0001000f000000ff
+ LAPTOP-THASAN kernel: ... fixed-purpose events:   4
+ LAPTOP-THASAN kernel: ... generic registers:      8
+ LAPTOP-THASAN kernel: ... max period:             00007fffffffffff
+ LAPTOP-THASAN kernel: ... value mask:             0000ffffffffffff
+ LAPTOP-THASAN kernel: ... version:                5
+ LAPTOP-THASAN kernel: .... node  #0, CPUs:      #2 #4 #6 #1 #3 #5 #7
+ LAPTOP-THASAN kernel: /dev/sdd: Can't open blockdev
+ LAPTOP-THASAN kernel: 9p: Installing v9fs 9p2000 file system support
+ LAPTOP-THASAN kernel: 9pnet: Installing 9P2000 support
+ LAPTOP-THASAN kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+ LAPTOP-THASAN kernel: ACPI: AC: AC Adapter [AC1] (off-line)
+ LAPTOP-THASAN kernel: ACPI: APIC 0x000000000011F604 000088 (v04 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Module Device)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Processor Aggregator Device)
+ LAPTOP-THASAN kernel: ACPI: Added _OSI(Processor Device)
+ LAPTOP-THASAN kernel: ACPI: Core revision 20230628
+ LAPTOP-THASAN kernel: ACPI: DSDT 0x00000000001011B8 01E11C (v02 MSFTVM DSDT01   00000001 INTL 20230628)
+ LAPTOP-THASAN kernel: ACPI: Early table checksum verification disabled
+ LAPTOP-THASAN kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+ LAPTOP-THASAN kernel: ACPI: FACP 0x0000000000101000 000114 (v06 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: FACS 0x0000000000101114 000040
+ LAPTOP-THASAN kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+ LAPTOP-THASAN kernel: ACPI: Interpreter enabled
+ LAPTOP-THASAN kernel: ACPI: LAPIC_NMI (acpi_id[0x01] dfl dfl lint[0x1])
+ LAPTOP-THASAN kernel: ACPI: OEM0 0x0000000000101154 000064 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: PM-Timer IO Port: 0x408
+ LAPTOP-THASAN kernel: ACPI: PM: (supports S0 S5)
+ LAPTOP-THASAN kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VRTUAL)
+ LAPTOP-THASAN kernel: ACPI: Reserving APIC table memory at [mem 0x11f604-0x11f68b]
+ LAPTOP-THASAN kernel: ACPI: Reserving DSDT table memory at [mem 0x1011b8-0x11f2d3]
+ LAPTOP-THASAN kernel: ACPI: Reserving FACP table memory at [mem 0x101000-0x101113]
+ LAPTOP-THASAN kernel: ACPI: Reserving FACS table memory at [mem 0x101114-0x101153]
+ LAPTOP-THASAN kernel: ACPI: Reserving OEM0 table memory at [mem 0x101154-0x1011b7]
+ LAPTOP-THASAN kernel: ACPI: Reserving SRAT table memory at [mem 0x11f2d4-0x11f603]
+ LAPTOP-THASAN kernel: ACPI: SRAT 0x000000000011F2D4 000330 (v02 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0xf7ffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x1fcbfffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1000000000-0xffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x10000000000-0x1ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000000-0x1fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1000000000000-0x1ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x1fcc00000-0x9ffdfffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x20000000000-0x3ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x200000000000-0x3fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x2000000000000-0x3ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x40000000000-0x7ffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x400000000000-0x7fffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x4000000000000-0x7ffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x80000000000-0xfffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x800000000000-0xffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x8000000000000-0xfffffffffffff] hotplug
+ LAPTOP-THASAN kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+ LAPTOP-THASAN kernel: ACPI: Using IOAPIC for interrupt routing
+ LAPTOP-THASAN kernel: ACPI: XSDT 0x0000000000100000 000044 (v01 VRTUAL MICROSFT 00000001 MSFT 00000001)
+ LAPTOP-THASAN kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+ LAPTOP-THASAN kernel: ACPI: battery: Slot [BAT1] (battery present)
+ LAPTOP-THASAN kernel: ACPI: bus type drm_connector registered
+ LAPTOP-THASAN kernel: AES CTR mode by8 optimization enabled
+ LAPTOP-THASAN kernel: AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+ LAPTOP-THASAN kernel: APIC: Static calls initialized
+ LAPTOP-THASAN kernel: APIC: Switch to symmetric I/O mode setup
+ LAPTOP-THASAN kernel: APIC: Switched APIC routing to: physical x2apic
+ LAPTOP-THASAN kernel: APIC: send_IPI() replaced with hv_send_ipi()
+ LAPTOP-THASAN kernel: APIC: send_IPI_all() replaced with hv_send_ipi_all()
+ LAPTOP-THASAN kernel: APIC: send_IPI_allbutself() replaced with hv_send_ipi_allbutself()
+ LAPTOP-THASAN kernel: APIC: send_IPI_mask() replaced with hv_send_ipi_mask()
+ LAPTOP-THASAN kernel: APIC: send_IPI_mask_allbutself() replaced with hv_send_ipi_mask_allbutself()
+ LAPTOP-THASAN kernel: APIC: send_IPI_self() replaced with hv_send_ipi_self()
+ LAPTOP-THASAN kernel: AVX2 version of gcm_enc/dec engaged.
+ LAPTOP-THASAN kernel: Adding 2097152k swap on /dev/sdc.  Priority:-2 extents:1 across:2097152k 
+ LAPTOP-THASAN kernel: Asymmetric key parser 'x509' registered
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x00000000000e0000-0x00000000000e0fff] reserved
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000001fffff] ACPI data
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000000200000-0x00000000f7ffffff] usable
+ LAPTOP-THASAN kernel: BIOS-e820: [mem 0x0000000100000000-0x00000001fcbfffff] usable
+ LAPTOP-THASAN kernel: BIOS-provided physical RAM map:
+ LAPTOP-THASAN kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+ LAPTOP-THASAN kernel: Booting paravirtualized kernel on Hyper-V
+ LAPTOP-THASAN kernel: Bridge firewalling registered
+ LAPTOP-THASAN kernel: Built 1 zonelists, mobility grouping on.  Total pages: 2018000
+ LAPTOP-THASAN kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 4838.39 BogoMIPS (lpj=9676792)
+ LAPTOP-THASAN kernel: Command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=8 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel: Console: colour dummy device 80x25
+ LAPTOP-THASAN kernel: Copyright (c) 1999-2008 LSI Corporation
+ LAPTOP-THASAN kernel: DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+ LAPTOP-THASAN kernel: DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+ LAPTOP-THASAN kernel: DMI not present or invalid.
+ LAPTOP-THASAN kernel: Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+ LAPTOP-THASAN kernel: Dynamic Preempt: none
+ LAPTOP-THASAN kernel: EDAC MC: Ver: 3.0.0
+ LAPTOP-THASAN kernel: EXT4-fs (sda): mounted filesystem 00000000-0000-0000-0000-000000000000 ro without journal. Quota mode: none.
+ LAPTOP-THASAN kernel: EXT4-fs (sdb): mounted filesystem 00000000-0000-0000-0000-000000000000 ro without journal. Quota mode: none.
+ LAPTOP-THASAN kernel: EXT4-fs (sdd): mounted filesystem 1eb82b94-0a29-4f31-92ce-1fd027858b7b r/w with ordered data mode. Quota mode: none.
+ LAPTOP-THASAN kernel: Early memory node ranges
+ LAPTOP-THASAN kernel: FS-Cache: Loaded
+ LAPTOP-THASAN kernel: Failed to register legacy timer interrupt
+ LAPTOP-THASAN kernel: Fallback order for Node 0: 0 
+ LAPTOP-THASAN kernel: Free page reporting enabled
+ LAPTOP-THASAN kernel: Freeing SMP alternatives memory: 44K
+ LAPTOP-THASAN kernel: Freeing initrd memory: 2720K
+ LAPTOP-THASAN kernel: Freeing unused decrypted memory: 2028K
+ LAPTOP-THASAN kernel: Freeing unused kernel image (initmem) memory: 4492K
+ LAPTOP-THASAN kernel: Freeing unused kernel image (rodata/data gap) memory: 840K
+ LAPTOP-THASAN kernel: Fusion MPT SAS Host driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT SPI Host driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT base driver 3.04.20
+ LAPTOP-THASAN kernel: Fusion MPT misc device (ioctl) driver 3.04.20
+ LAPTOP-THASAN kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+ LAPTOP-THASAN kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+ LAPTOP-THASAN kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+ LAPTOP-THASAN kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+ LAPTOP-THASAN kernel: Hyper-V: Disabling IBT because of Hyper-V bug
+ LAPTOP-THASAN kernel: Hyper-V: Host Build 10.0.26100.7171-7-0
+ LAPTOP-THASAN kernel: Hyper-V: LAPIC Timer Frequency: 0xc3500
+ LAPTOP-THASAN kernel: Hyper-V: Nested features: 0x3e0101
+ LAPTOP-THASAN kernel: Hyper-V: PV spinlocks enabled
+ LAPTOP-THASAN kernel: Hyper-V: Using IPI hypercalls
+ LAPTOP-THASAN kernel: Hyper-V: Using hypercall for remote TLB flush
+ LAPTOP-THASAN kernel: Hyper-V: enabling crash_kexec_post_notifiers
+ LAPTOP-THASAN kernel: Hyper-V: privilege flags low 0xae7f, high 0x3b8030, hints 0x9a4e24, misc 0xe4bed7b6
+ LAPTOP-THASAN kernel: Hypervisor detected: Microsoft Hyper-V
+ LAPTOP-THASAN kernel: IOAPIC[0]: apic_id 8, version 17, address 0xfec00000, GSI 0-23
+ LAPTOP-THASAN kernel: IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+ LAPTOP-THASAN kernel: IPI shorthand broadcast: enabled
+ LAPTOP-THASAN kernel: In-situ OAM (IOAM) with IPv6
+ LAPTOP-THASAN kernel: Initialise system trusted keyrings
+ LAPTOP-THASAN kernel: Initmem setup node 0 [mem 0x0000000000001000-0x00000001fcbfffff]
+ LAPTOP-THASAN kernel: Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+ LAPTOP-THASAN kernel: KERNEL supported cpus:
+ LAPTOP-THASAN kernel: Kernel command line: initrd=\initrd.img WSL_ROOT_INIT=1 panic=-1 nr_cpus=8 hv_utils.timesync_implicit=1 console=hvc0 debug pty.legacy_count=0 WSL_ENABLE_CRASH_DUMP=1
+ LAPTOP-THASAN kernel: Key type asymmetric registered
+ LAPTOP-THASAN kernel: Key type blacklist registered
+ LAPTOP-THASAN kernel: LSM: initializing lsm=capability,landlock,yama,safesetid,selinux,integrity
+ LAPTOP-THASAN kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+ LAPTOP-THASAN kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+ LAPTOP-THASAN kernel: Linux agpgart interface v0.103
+ LAPTOP-THASAN kernel: Linux version 6.6.87.2-microsoft-standard-WSL2 (root@439a258ad544) (gcc (GCC) 11.2.0, GNU ld (GNU Binutils) 2.37) #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+ LAPTOP-THASAN kernel: Loading compiled-in X.509 certificates
+ LAPTOP-THASAN kernel: Loading iSCSI transport class v2.0-870.
+ LAPTOP-THASAN kernel: MTRR map: 5 entries (4 fixed + 1 variable; max 20), built from 8 variable MTRRs
+ LAPTOP-THASAN kernel: Memory: 4123740K/8202876K available (20480K kernel code, 3457K rwdata, 13496K rodata, 4492K init, 6208K bss, 262440K reserved, 0K cma-reserved)
+ LAPTOP-THASAN kernel: Microchip SmartPQI Driver (v2.1.24-046)
+ LAPTOP-THASAN kernel: Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Movable zone start for each node
+ LAPTOP-THASAN kernel: NET: Registered PF_INET protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_INET6 protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_PACKET protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_VSOCK protocol family
+ LAPTOP-THASAN kernel: NET: Registered PF_XDP protocol family
+ LAPTOP-THASAN kernel: NODE_DATA(0) allocated [mem 0x1fcbde000-0x1fcbfffff]
+ LAPTOP-THASAN kernel: NR_IRQS: 524544, nr_irqs: 488, preallocated irqs: 0
+ LAPTOP-THASAN kernel: NUMA: Node 0 [mem 0x00000000-0xf7ffffff] + [mem 0x100000000-0x1fcbfffff] -> [mem 0x00000000-0x1fcbfffff]
+ LAPTOP-THASAN kernel: NX (Execute Disable) protection: active
+ LAPTOP-THASAN kernel: NetLabel:  domain hash size = 128
+ LAPTOP-THASAN kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+ LAPTOP-THASAN kernel: NetLabel:  unlabeled traffic allowed by default
+ LAPTOP-THASAN kernel: NetLabel: Initializing
+ LAPTOP-THASAN kernel: On node 0, zone DMA32: 1 pages in unavailable ranges
+ LAPTOP-THASAN kernel: On node 0, zone DMA32: 352 pages in unavailable ranges
+ LAPTOP-THASAN kernel: On node 0, zone Normal: 13312 pages in unavailable ranges
+ LAPTOP-THASAN kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+ LAPTOP-THASAN kernel: PCI: CLS 0 bytes, default 64
+ LAPTOP-THASAN kernel: PCI: Fatal: No config space access function found
+ LAPTOP-THASAN kernel: PCI: System does not support PCI
+ LAPTOP-THASAN kernel: PCI: Using ACPI for IRQ routing
+ LAPTOP-THASAN kernel: PCI: Using E820 reservations for host bridge windows
+ LAPTOP-THASAN kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000e0000-0x000e0fff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x000e1000-0x000fffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0x00100000-0x001fffff]
+ LAPTOP-THASAN kernel: PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xffffffff]
+ LAPTOP-THASAN kernel: PPP generic driver version 2.4.2
+ LAPTOP-THASAN kernel: PTP clock support registered
+ LAPTOP-THASAN kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+ LAPTOP-THASAN kernel: Performance Events:  AnyThread deprecated, Icelake events, 32-deep LBR, full-width counters, Intel PMU driver.
+ LAPTOP-THASAN kernel: Policy zone: Normal
+ LAPTOP-THASAN kernel: RAMDISK: [mem 0x04be4000-0x04e8bfff]
+ LAPTOP-THASAN kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+ LAPTOP-THASAN kernel: RAS: Correctable Errors collector initialized.
+ LAPTOP-THASAN kernel: RCU Tasks Rude: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RCU Tasks Trace: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+ LAPTOP-THASAN kernel: RETBleed: Mitigation: Enhanced IBRS
+ LAPTOP-THASAN kernel: Run /init as init process
+ LAPTOP-THASAN kernel: SCSI subsystem initialized
+ LAPTOP-THASAN kernel: SELinux:  Initializing.
+ LAPTOP-THASAN kernel: SGI XFS with ACLs, security attributes, realtime, verbose warnings, quota, no debug enabled
+ LAPTOP-THASAN kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x00 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x01 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x02 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x03 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x04 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x05 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x06 -> Node 0
+ LAPTOP-THASAN kernel: SRAT: PXM 0 -> APIC 0x07 -> Node 0
+ LAPTOP-THASAN kernel: Segment Routing with IPv6
+ LAPTOP-THASAN kernel: Serial: 8250/16550 driver, 8 ports, IRQ sharing enabled
+ LAPTOP-THASAN kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+ LAPTOP-THASAN kernel: Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on vm exit
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+ LAPTOP-THASAN kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+ LAPTOP-THASAN kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+ LAPTOP-THASAN kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+ LAPTOP-THASAN kernel: TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+ LAPTOP-THASAN kernel: TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+ LAPTOP-THASAN kernel: TCP: Hash tables configured (established 65536 bind 65536)
+ LAPTOP-THASAN kernel: TCP: eth0: Driver has suspect GRO implementation, TCP performance may be compromised.
+ LAPTOP-THASAN kernel: TSC deadline timer available
+ LAPTOP-THASAN kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+ LAPTOP-THASAN kernel: Trying to unpack rootfs image as initramfs...
+ LAPTOP-THASAN kernel: UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: Unknown kernel command line parameters "WSL_ROOT_INIT=1 WSL_ENABLE_CRASH_DUMP=1", will be passed to user space.
+ LAPTOP-THASAN kernel: Using GB pages for direct mapping
+ LAPTOP-THASAN kernel: Using NULL legacy PIC
+ LAPTOP-THASAN kernel: VFS: Disk quotas dquot_6.6.0
+ LAPTOP-THASAN kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+ LAPTOP-THASAN kernel: VMware PVSCSI driver - version 1.0.7.0-k
+ LAPTOP-THASAN kernel: VMware vmxnet3 virtual NIC driver - version 1.7.0.0-k-NAPI
+ LAPTOP-THASAN kernel: Write protecting the kernel read-only data: 34816k
+ LAPTOP-THASAN kernel: Yama: becoming mindful.
+ LAPTOP-THASAN kernel: Zone ranges:
+ LAPTOP-THASAN kernel: [mem 0xf8000000-0xffffffff] available for PCI devices
+ LAPTOP-THASAN kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+ LAPTOP-THASAN kernel: audit: initializing netlink subsys (disabled)
+ LAPTOP-THASAN kernel: audit: type=2000 audit(1764952670.020:1): state=initialized audit_enabled=0 res=1
+ LAPTOP-THASAN kernel: brd: module loaded
+ LAPTOP-THASAN kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+ LAPTOP-THASAN kernel: clk: Disabling unused clocks
+ LAPTOP-THASAN kernel: clocksource: Switched to clocksource tsc
+ LAPTOP-THASAN kernel: clocksource: Switched to clocksource tsc-early
+ LAPTOP-THASAN kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+ LAPTOP-THASAN kernel: clocksource: hyperv_clocksource_msr: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+ LAPTOP-THASAN kernel: clocksource: hyperv_clocksource_tsc_page: mask: 0xffffffffffffffff max_cycles: 0x24e6a1710, max_idle_ns: 440795202120 ns
+ LAPTOP-THASAN kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+ LAPTOP-THASAN kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+ LAPTOP-THASAN kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22df0f35937, max_idle_ns: 440795269039 ns
+ LAPTOP-THASAN kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22df0f35937, max_idle_ns: 440795269039 ns
+ LAPTOP-THASAN kernel: cpuidle: using governor ladder
+ LAPTOP-THASAN kernel: cpuidle: using governor menu
+ LAPTOP-THASAN kernel: cryptd: max_cpu_qlen set to 1000
+ LAPTOP-THASAN kernel: dca service started, version 1.12.1
+ LAPTOP-THASAN kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+ LAPTOP-THASAN kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+ LAPTOP-THASAN kernel: device-mapper: uevent: version 1.0.3
+ LAPTOP-THASAN kernel: devtmpfs: initialized
+ LAPTOP-THASAN kernel: drop_monitor: Initializing network drop monitor service
+ LAPTOP-THASAN kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+ LAPTOP-THASAN kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+ LAPTOP-THASAN kernel: ftrace: allocated 218 pages with 5 groups
+ LAPTOP-THASAN kernel: ftrace: allocating 55808 entries in 218 pages
+ LAPTOP-THASAN kernel: fuse: init (API version 7.39)
+ LAPTOP-THASAN kernel: futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+ LAPTOP-THASAN kernel: hv_balloon: Cold memory discard hint enabled with order 9
+ LAPTOP-THASAN kernel: hv_balloon: Max. dynamic memory size: 8012 MB
+ LAPTOP-THASAN kernel: hv_balloon: Using Dynamic Memory protocol version 2.0
+ LAPTOP-THASAN kernel: hv_pci a9d600b0-81d0-422f-b39f-59309d4d865b: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci a9d600b0-81d0-422f-b39f-59309d4d865b: PCI host bridge to bus 81d0:00
+ LAPTOP-THASAN kernel: hv_pci ba209a91-6471-47aa-81c6-d5d4ea5901f5: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci ba209a91-6471-47aa-81c6-d5d4ea5901f5: PCI host bridge to bus 6471:00
+ LAPTOP-THASAN kernel: hv_pci c4b741f5-5582-4c98-8f8b-2e082933c396: PCI VMBus probing: Using version 0x10004
+ LAPTOP-THASAN kernel: hv_pci c4b741f5-5582-4c98-8f8b-2e082933c396: PCI host bridge to bus 5582:00
+ LAPTOP-THASAN kernel: hv_utils: Registering HyperV Utility Driver
+ LAPTOP-THASAN kernel: hv_utils: TimeSync IC version 4.0
+ LAPTOP-THASAN kernel: hv_vmbus: Unknown GUID: 6e382d18-3336-4f4b-acc4-2b7703d4df4a
+ LAPTOP-THASAN kernel: hv_vmbus: Unknown GUID: dde9cbc0-5060-4436-9448-ea1254a5d177
+ LAPTOP-THASAN kernel: hv_vmbus: Vmbus version:5.3
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver dxgkrnl
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_balloon
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_netvsc
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_pci
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_sock
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_storvsc
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hv_utils
+ LAPTOP-THASAN kernel: hv_vmbus: registering driver hyperv_keyboard
+ LAPTOP-THASAN kernel: i8042: PNP: No PS/2 controller found.
+ LAPTOP-THASAN kernel: ima: Allocated hash algorithm: sha256
+ LAPTOP-THASAN kernel: ima: No TPM chip found, activating TPM-bypass!
+ LAPTOP-THASAN kernel: ima: No architecture policies found
+ LAPTOP-THASAN kernel: intel_pstate: CPU model not supported
+ LAPTOP-THASAN kernel: intel_rapl_msr: PL4 support detected.
+ LAPTOP-THASAN kernel: io scheduler kyber registered
+ LAPTOP-THASAN kernel: io scheduler mq-deadline registered
+ LAPTOP-THASAN kernel: ioatdma: Intel(R) QuickData Technology Driver 5.00
+ LAPTOP-THASAN kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+ LAPTOP-THASAN kernel: iommu: Default domain type: Translated
+ LAPTOP-THASAN kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+ LAPTOP-THASAN kernel: kvm_intel: Using Hyper-V Enlightened VMCS
+ LAPTOP-THASAN kernel: landlock: Up and running.
+ LAPTOP-THASAN kernel: last_pfn = 0x1fcc00 max_arch_pfn = 0x400000000
+ LAPTOP-THASAN kernel: last_pfn = 0xf8000 max_arch_pfn = 0x400000000
+ LAPTOP-THASAN kernel: libata version 3.00 loaded.
+ LAPTOP-THASAN kernel: loop: module loaded
+ LAPTOP-THASAN kernel: mem auto-init: stack:off, heap alloc:on, heap free:off
+ LAPTOP-THASAN kernel: mini_init (196): drop_caches: 1
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+ LAPTOP-THASAN kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+ LAPTOP-THASAN kernel: mptctl: /dev/mptctl @ (major,minor=10,220)
+ LAPTOP-THASAN kernel: mptctl: Registered with Fusion MPT base driver
+ LAPTOP-THASAN kernel: node 0 deferred pages initialised in 12ms
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 0: assigned [mem 0x9ffe00000-0x9ffe00fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 2: assigned [mem 0x9ffe01000-0x9ffe01fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: BAR 4: assigned [mem 0x9ffe02000-0x9ffe02fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: [1af4:1043] type 00 class 0x010000
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x10: [mem 0x9ffe00000-0x9ffe00fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x18: [mem 0x9ffe01000-0x9ffe01fff 64bit]
+ LAPTOP-THASAN kernel: pci 5582:00:00.0: reg 0x20: [mem 0x9ffe02000-0x9ffe02fff 64bit]
+ LAPTOP-THASAN kernel: pci 6471:00:00.0: [1414:008e] type 00 class 0x030200
+ LAPTOP-THASAN kernel: pci 81d0:00:00.0: BAR 0: assigned [mem 0xe00000000-0xe00000fff 64bit]
+ LAPTOP-THASAN kernel: pci 81d0:00:00.0: BAR 2: assigned [mem 0xe00001000-0xe00001fff 64bit]
+ LAPTOP-THASAN kernel: pci 81d0:00:00.0: BAR 4: assigned [mem 0xc00000000-0xdffffffff 64bit]
+ LAPTOP-THASAN kernel: pci 81d0:00:00.0: [1af4:105a] type 00 class 0x088000
+ LAPTOP-THASAN kernel: pci 81d0:00:00.0: reg 0x10: [mem 0xe00000000-0xe00000fff 64bit]
+ LAPTOP-THASAN kernel: pci 81d0:00:00.0: reg 0x18: [mem 0xe00001000-0xe00001fff 64bit]
+ LAPTOP-THASAN kernel: pci 81d0:00:00.0: reg 0x20: [mem 0xc00000000-0xdffffffff 64bit]
+ LAPTOP-THASAN kernel: pci_bus 5582:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus 5582:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pci_bus 5582:00: root bus resource [mem 0x9ffe00000-0x9ffe02fff window]
+ LAPTOP-THASAN kernel: pci_bus 6471:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus 6471:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pci_bus 81d0:00: No busn resource found for root bus, will use [bus 00-ff]
+ LAPTOP-THASAN kernel: pci_bus 81d0:00: busn_res: [bus 00-ff] end is updated to 00
+ LAPTOP-THASAN kernel: pci_bus 81d0:00: root bus resource [mem 0xc00000000-0xe00001fff window]
+ LAPTOP-THASAN kernel: pcpu-alloc: [0] 0 1 2 3 4 5 6 7 
+ LAPTOP-THASAN kernel: pcpu-alloc: s221184 r8192 d28672 u262144 alloc=1*2097152
+ LAPTOP-THASAN kernel: percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u262144
+ LAPTOP-THASAN kernel: pid_max: default: 32768 minimum: 301
+ LAPTOP-THASAN kernel: pinctrl core: initialized pinctrl subsystem
+ LAPTOP-THASAN kernel: pnp: PnP ACPI init
+ LAPTOP-THASAN kernel: pnp: PnP ACPI: found 1 devices
+ LAPTOP-THASAN kernel: pps_core: LinuxPPS API ver. 1 registered
+ LAPTOP-THASAN kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+ LAPTOP-THASAN kernel: printk: console [hvc0] enabled
+ LAPTOP-THASAN kernel: random: crng init done
+ LAPTOP-THASAN kernel: rcu:         Max phase no-delay instances is 1000.
+ LAPTOP-THASAN kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=8.
+ LAPTOP-THASAN kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+ LAPTOP-THASAN kernel: rcu: Hierarchical SRCU implementation.
+ LAPTOP-THASAN kernel: rcu: Preemptible hierarchical RCU implementation.
+ LAPTOP-THASAN kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+ LAPTOP-THASAN kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+ LAPTOP-THASAN kernel: rdac: device handler registered
+ LAPTOP-THASAN kernel: registered taskstats version 1
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: RTC can wake from S4
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: alarms up to one month, 114 bytes nvram
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: registered as rtc0
+ LAPTOP-THASAN kernel: rtc_cmos 00:00: setting system clock to 2025-12-05T16:37:50 UTC (1764952670)
+ LAPTOP-THASAN kernel: sched_clock: Marking stable (280031254, 3127625)->(321893167, -38734288)
+ LAPTOP-THASAN kernel: scsi 0:0:0:0: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:1: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:2: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi 0:0:0:3: Direct-Access     Msft     Virtual Disk     1.0  PQ: 0 ANSI: 5
+ LAPTOP-THASAN kernel: scsi host0: storvsc_host_t
+ LAPTOP-THASAN kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] 795880 512-byte logical blocks: (407 MB/389 MiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Mode Sense: 0f 00 80 00
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Write Protect is on
+ LAPTOP-THASAN kernel: sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:1: Attached scsi generic sg1 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] 381016 512-byte logical blocks: (195 MB/186 MiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Mode Sense: 0f 00 80 00
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Write Protect is on
+ LAPTOP-THASAN kernel: sd 0:0:0:1: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:2: Attached scsi generic sg2 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] 4096-byte physical blocks
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] 4194312 512-byte logical blocks: (2.15 GB/2.00 GiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Mode Sense: 0f 00 00 00
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Write Protect is off
+ LAPTOP-THASAN kernel: sd 0:0:0:2: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: sd 0:0:0:3: Attached scsi generic sg3 type 0
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] 2147483648 512-byte logical blocks: (1.10 TB/1.00 TiB)
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] 4096-byte physical blocks
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Attached SCSI disk
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Mode Sense: 0f 00 00 00
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Write Protect is off
+ LAPTOP-THASAN kernel: sd 0:0:0:3: [sdd] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+ LAPTOP-THASAN kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:8 nr_cpu_ids:8 nr_node_ids:1
+ LAPTOP-THASAN kernel: signal: max sigframe size: 3632
+ LAPTOP-THASAN kernel: smp: Bringing up secondary CPUs ...
+ LAPTOP-THASAN kernel: smp: Brought up 1 node, 8 CPUs
+ LAPTOP-THASAN kernel: smpboot: Allowing 8 CPUs, 0 hotplug CPUs
+ LAPTOP-THASAN kernel: smpboot: CPU0: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (family: 0x6, model: 0x8c, stepping: 0x1)
+ LAPTOP-THASAN kernel: smpboot: Max logical packages: 1
+ LAPTOP-THASAN kernel: smpboot: Total of 8 processors activated (38707.16 BogoMIPS)
+ LAPTOP-THASAN kernel: smpboot: x86: Booting SMP configuration:
+ LAPTOP-THASAN kernel: software IO TLB: area num 8.
+ LAPTOP-THASAN kernel: software IO TLB: mapped [mem 0x00000000f4000000-0x00000000f8000000] (64MB)
+ LAPTOP-THASAN kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+ LAPTOP-THASAN kernel: tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+ LAPTOP-THASAN kernel: thermal_sys: Registered thermal governor 'step_wise'
+ LAPTOP-THASAN kernel: thermal_sys: Registered thermal governor 'user_space'
+ LAPTOP-THASAN kernel: tsc: Detected 2419.198 MHz processor
+ LAPTOP-THASAN kernel: tun: Universal TUN/TAP device driver, 1.6
+ LAPTOP-THASAN kernel: vgaarb: loaded
+ LAPTOP-THASAN kernel: virtio-pci 5582:00:00.0: enabling device (0000 -> 0002)
+ LAPTOP-THASAN kernel: virtio-pci 81d0:00:00.0: enabling device (0000 -> 0002)
+ LAPTOP-THASAN kernel: virtiofs virtio1: Cache len: 0x200000000 @ 0xc00000000
+ LAPTOP-THASAN kernel: weston[237]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+ LAPTOP-THASAN kernel: workingset: timestamp_bits=36 max_order=21 bucket_order=0
+ LAPTOP-THASAN kernel: x2apic enabled
+ LAPTOP-THASAN kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+ LAPTOP-THASAN kernel: x86/cpu: User Mode Instruction Prevention (UMIP) activated
+ LAPTOP-THASAN kernel: x86/fpu: Enabled xstate features 0x8e7, context size is 2448 bytes, using 'compacted' format.
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+ LAPTOP-THASAN kernel: x86/fpu: Supporting XSAVE feature 0x800: 'Control-flow User registers'
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[11]: 2432, xstate_sizes[11]:   16
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+ LAPTOP-THASAN kernel: x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+ LAPTOP-THASAN kernel: x86/mm: Memory block size: 128MB
+ LAPTOP-THASAN landscape-config[163]: Config Path:   /etc/landscape/client.conf
+ LAPTOP-THASAN landscape-config[163]: Data Path      /var/lib/landscape/client
+ LAPTOP-THASAN landscape-config[163]: Registered:    False
+ LAPTOP-THASAN login[295]: PAM adding faulty module: pam_lastlog.so
+ LAPTOP-THASAN login[295]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+ LAPTOP-THASAN login[295]: pam_unix(login:session): session opened for user thasa(uid=1000) by thasa(uid=0)
+ LAPTOP-THASAN rsyslogd[189]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="189" x-info="https://www.rsyslog.com"] start
+ LAPTOP-THASAN rsyslogd[189]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+ LAPTOP-THASAN rsyslogd[189]: rsyslogd's groupid changed to 102
+ LAPTOP-THASAN rsyslogd[189]: rsyslogd's userid changed to 102
+ LAPTOP-THASAN sh[94]: /bin/sh: 1: cannot create /proc/sys/fs/binfmt_misc/WSLInterop: Permission denied
+ LAPTOP-THASAN snapd[168]: backends.go:68: AppArmor status: apparmor not enabled
+ LAPTOP-THASAN snapd[168]: daemon stop requested to wait for socket activation
+ LAPTOP-THASAN snapd[168]: daemon.go:250: started snapd/2.68.5+ubuntu24.04.1 (series 16; classic; devmode; wsl) ubuntu/24.04 (amd64) linux/6.6.87.2-microsoft-standa.
+ LAPTOP-THASAN snapd[168]: daemon.go:353: adjusting startup timeout by 30s (pessimistic estimate of 30s plus 5s per snap)
+ LAPTOP-THASAN snapd[168]: daemon.go:548: gracefully waiting for running hooks
+ LAPTOP-THASAN snapd[168]: daemon.go:550: done waiting for running hooks
+ LAPTOP-THASAN snapd[168]: overlord.go:284: Acquiring state lock file
+ LAPTOP-THASAN snapd[168]: overlord.go:289: Acquired state lock file
+ LAPTOP-THASAN snapd[168]: overlord.go:528: Released state lock file
+ LAPTOP-THASAN systemd-journald[42]: Collecting audit messages is disabled.
+ LAPTOP-THASAN systemd-journald[42]: Failed to read journal file /var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55/user-1000.journal for rotation, trying to move it out of the way: Device or resource busy
+ LAPTOP-THASAN systemd-journald[42]: File /var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55/system.journal corrupted or uncleanly shut down, renaming and replacing.
+ LAPTOP-THASAN systemd-journald[42]: Journal started
+ LAPTOP-THASAN systemd-journald[42]: Received client request to flush runtime journal.
+ LAPTOP-THASAN systemd-journald[42]: Runtime Journal (/run/log/journal/e0af5bf49a0a471abdfbb01564eb1a55) is 8.0M, max 388.2M, 380.2M free.
+ LAPTOP-THASAN systemd-journald[42]: System Journal (/var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55) is 396.6M, max 4.0G, 3.6G free.
+ LAPTOP-THASAN systemd-journald[42]: Time jumped backwards, rotating.
+ LAPTOP-THASAN systemd-journald[42]: Time spent on flushing to /var/log/journal/e0af5bf49a0a471abdfbb01564eb1a55 is 3.883ms for 460 entries.
+ LAPTOP-THASAN systemd-logind[172]: New seat seat0.
+ LAPTOP-THASAN systemd-logind[172]: New session 1 of user thasa.
+ LAPTOP-THASAN systemd-resolved[110]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+ LAPTOP-THASAN systemd-resolved[110]: Clock change detected. Flushing caches.
+ LAPTOP-THASAN systemd-resolved[110]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa corp home internal intranet lan local private test
+ LAPTOP-THASAN systemd-resolved[110]: Positive Trust Anchors:
+ LAPTOP-THASAN systemd-resolved[110]: Using system hostname 'LAPTOP-THASAN'.
+ LAPTOP-THASAN systemd-sysctl[76]: Couldn't write '1' to 'kernel/apparmor_restrict_unprivileged_userns', ignoring: No such file or directory
+ LAPTOP-THASAN systemd-timesyncd[116]: Contacted time server 185.125.190.57:123 (ntp.ubuntu.com).
+ LAPTOP-THASAN systemd-timesyncd[116]: Initial clock synchronization to Fri 2025-12-05 11:37:53.785197 EST.
+ LAPTOP-THASAN systemd-udevd[89]: Using default interface naming scheme 'v255'.
+ LAPTOP-THASAN systemd[1]: Cannot find unit for notify message of PID 216, ignoring.
+ LAPTOP-THASAN systemd[1]: Cannot find unit for notify message of PID 218, ignoring.
+ LAPTOP-THASAN systemd[1]: Cannot find unit for notify message of PID 221, ignoring.
+ LAPTOP-THASAN systemd[1]: Cannot find unit for notify message of PID 248, ignoring.
+ LAPTOP-THASAN systemd[1]: Condition check resulted in landscape-client.service - Landscape client daemons being skipped.
+ LAPTOP-THASAN systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+ LAPTOP-THASAN systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+ LAPTOP-THASAN systemd[1]: Finished console-setup.service - Set console font and keymap.
+ LAPTOP-THASAN systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+ LAPTOP-THASAN systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+ LAPTOP-THASAN systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+ LAPTOP-THASAN systemd[1]: Finished motd-news.service - Message of the Day.
+ LAPTOP-THASAN systemd[1]: Finished setvtrgb.service - Set console scheme.
+ LAPTOP-THASAN systemd[1]: Finished snapd.seeded.service - Wait until snapd is fully seeded.
+ LAPTOP-THASAN systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+ LAPTOP-THASAN systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+ LAPTOP-THASAN systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+ LAPTOP-THASAN systemd[1]: Finished systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+ LAPTOP-THASAN systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+ LAPTOP-THASAN systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+ LAPTOP-THASAN systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+ LAPTOP-THASAN systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+ LAPTOP-THASAN systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+ LAPTOP-THASAN systemd[1]: Listening on apport-forward.socket - Unix socket for apport crash forwarding.
+ LAPTOP-THASAN systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+ LAPTOP-THASAN systemd[1]: Listening on snapd.socket - Socket activation for snappy daemon.
+ LAPTOP-THASAN systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management (Varlink).
+ LAPTOP-THASAN systemd[1]: Listening on uuidd.socket - UUID daemon activation socket.
+ LAPTOP-THASAN systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+ LAPTOP-THASAN systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+ LAPTOP-THASAN systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+ LAPTOP-THASAN systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+ LAPTOP-THASAN systemd[1]: Reached target basic.target - Basic System.
+ LAPTOP-THASAN systemd[1]: Reached target getty-pre.target - Preparation for Logins.
+ LAPTOP-THASAN systemd[1]: Reached target getty.target - Login Prompts.
+ LAPTOP-THASAN systemd[1]: Reached target graphical.target - Graphical Interface.
+ LAPTOP-THASAN systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+ LAPTOP-THASAN systemd[1]: Reached target local-fs.target - Local File Systems.
+ LAPTOP-THASAN systemd[1]: Reached target multi-user.target - Multi-User System.
+ LAPTOP-THASAN systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+ LAPTOP-THASAN systemd[1]: Reached target paths.target - Path Units.
+ LAPTOP-THASAN systemd[1]: Reached target sockets.target - Socket Units.
+ LAPTOP-THASAN systemd[1]: Reached target sysinit.target - System Initialization.
+ LAPTOP-THASAN systemd[1]: Reached target time-set.target - System Time Set.
+ LAPTOP-THASAN systemd[1]: Reached target timers.target - Timer Units.
+ LAPTOP-THASAN systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+ LAPTOP-THASAN systemd[1]: Started apt-daily.timer - Daily apt download activities.
+ LAPTOP-THASAN systemd[1]: Started console-getty.service - Console Getty.
+ LAPTOP-THASAN systemd[1]: Started cron.service - Regular background program processing daemon.
+ LAPTOP-THASAN systemd[1]: Started dbus.service - D-Bus System Message Bus.
+ LAPTOP-THASAN systemd[1]: Started dmesg.service - Save initial kernel messages after boot.
+ LAPTOP-THASAN systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+ LAPTOP-THASAN systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+ LAPTOP-THASAN systemd[1]: Started getty@tty1.service - Getty on tty1.
+ LAPTOP-THASAN systemd[1]: Started logrotate.timer - Daily rotation of log files.
+ LAPTOP-THASAN systemd[1]: Started man-db.timer - Daily man-db regeneration.
+ LAPTOP-THASAN systemd[1]: Started motd-news.timer - Message of the Day.
+ LAPTOP-THASAN systemd[1]: Started rsyslog.service - System Logging Service.
+ LAPTOP-THASAN systemd[1]: Started session-1.scope - Session 1 of User thasa.
+ LAPTOP-THASAN systemd[1]: Started snapd.service - Snap Daemon.
+ LAPTOP-THASAN systemd[1]: Started systemd-logind.service - User Login Management.
+ LAPTOP-THASAN systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+ LAPTOP-THASAN systemd[1]: Started systemd-timedated.service - Time & Date Service.
+ LAPTOP-THASAN systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+ LAPTOP-THASAN systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+ LAPTOP-THASAN systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+ LAPTOP-THASAN systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+ LAPTOP-THASAN systemd[1]: Started user@1000.service - User Manager for UID 1000.
+ LAPTOP-THASAN systemd[1]: Started wsl-pro.service - Bridge to Ubuntu Pro agent on Windows.
+ LAPTOP-THASAN systemd[1]: Starting console-setup.service - Set console font and keymap...
+ LAPTOP-THASAN systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+ LAPTOP-THASAN systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+ LAPTOP-THASAN systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+ LAPTOP-THASAN systemd[1]: Starting landscape-client.service - Landscape client daemons...
+ LAPTOP-THASAN systemd[1]: Starting motd-news.service - Message of the Day...
+ LAPTOP-THASAN systemd[1]: Starting rsyslog.service - System Logging Service...
+ LAPTOP-THASAN systemd[1]: Starting setvtrgb.service - Set console scheme...
+ LAPTOP-THASAN systemd[1]: Starting snapd.seeded.service - Wait until snapd is fully seeded...
+ LAPTOP-THASAN systemd[1]: Starting snapd.service - Snap Daemon...
+ LAPTOP-THASAN systemd[1]: Starting snapd.socket - Socket activation for snappy daemon...
+ LAPTOP-THASAN systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+ LAPTOP-THASAN systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+ LAPTOP-THASAN systemd[1]: Starting systemd-logind.service - User Login Management...
+ LAPTOP-THASAN systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+ LAPTOP-THASAN systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+ LAPTOP-THASAN systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+ LAPTOP-THASAN systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+ LAPTOP-THASAN systemd[1]: Starting systemd-tmpfiles-setup.service - Create Volatile Files and Directories...
+ LAPTOP-THASAN systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+ LAPTOP-THASAN systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+ LAPTOP-THASAN systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+ LAPTOP-THASAN systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+ LAPTOP-THASAN systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+ LAPTOP-THASAN systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+ LAPTOP-THASAN systemd[1]: Starting wsl-pro.service - Bridge to Ubuntu Pro agent on Windows...
+ LAPTOP-THASAN systemd[1]: Startup finished in 1.927s.
+ LAPTOP-THASAN systemd[1]: apparmor.service - Load AppArmor profiles was skipped because of an unmet condition check (ConditionSecurity=apparmor).
+ LAPTOP-THASAN systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+ LAPTOP-THASAN systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+ LAPTOP-THASAN systemd[1]: apport.service - automatic crash report generation was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: apt-daily-upgrade.service - Daily apt upgrade and clean activities was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: apt-daily.service - Daily apt download activities was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: dmesg.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: e2scrub_all.service - Online ext4 Metadata Check for All Filesystems was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: e2scrub_reap.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+ LAPTOP-THASAN systemd[1]: fstrim.timer - Discard unused filesystem blocks once a week was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+ LAPTOP-THASAN systemd[1]: landscape-client.service: Skipped due to 'exec-condition'.
+ LAPTOP-THASAN systemd[1]: ldconfig.service - Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: logrotate.service - Rotate log files was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: man-db.service - Daily man-db regeneration was skipped because of an unmet condition check (ConditionACPower=true).
+ LAPTOP-THASAN systemd[1]: motd-news.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: networkd-dispatcher.service - Dispatcher daemon for systemd-networkd was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: snapd.apparmor.service - Load AppArmor profiles managed internally by snapd was skipped because of an unmet condition check (ConditionSecurity=apparmor).
+ LAPTOP-THASAN systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: snapd.core-fixup.service - Automatically repair incorrect owner/permissions on core devices was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: snapd.recovery-chooser-trigger.service - Wait for the Ubuntu Core chooser trigger was skipped because of an unmet condition check (ConditionPathExistsGlob=/dev/input/event*).
+ LAPTOP-THASAN systemd[1]: snapd.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: snapd.snap-repair.timer - Timer to automatically fetch and run repair assertions was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: ssl-cert.service - Generate snakeoil SSL keypair was skipped because of an unmet condition check (ConditionPathExists=!/etc/ssl/private/ssl-cert-snakeoil.key).
+ LAPTOP-THASAN systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+ LAPTOP-THASAN systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+ LAPTOP-THASAN systemd[1]: systemd-journal-catalog-update.service - Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+ LAPTOP-THASAN systemd[1]: systemd-machine-id-commit.service - Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+ LAPTOP-THASAN systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+ LAPTOP-THASAN systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+ LAPTOP-THASAN systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: systemd-random-seed.service - Load/Save OS Random Seed was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because of an unmet condition check (ConditionVirtualization=!container).
+ LAPTOP-THASAN systemd[1]: systemd-sysusers.service - Create System Users was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: systemd-timedated.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+ LAPTOP-THASAN systemd[1]: systemd-update-done.service - Update is Completed was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: tmp-syscheck\x2dmountpoint\x2d3677968690.mount: Deactivated successfully.
+ LAPTOP-THASAN systemd[1]: ua-reboot-cmds.service - Ubuntu Pro reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+ LAPTOP-THASAN systemd[1]: ua-timer.timer - Ubuntu Pro Timer for running repeated jobs was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+ LAPTOP-THASAN systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+ LAPTOP-THASAN systemd[1]: wslg.service - WSLg Remount Service was skipped because of an unmet condition check (ConditionPathExists=!/tmp/.X11-unix/X0).
+ LAPTOP-THASAN systemd[339]: Created slice app.slice - User Application Slice.
+ LAPTOP-THASAN systemd[339]: Finished wslg-session.service - WSLg user service.
+ LAPTOP-THASAN systemd[339]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+ LAPTOP-THASAN systemd[339]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+ LAPTOP-THASAN systemd[339]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+ LAPTOP-THASAN systemd[339]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+ LAPTOP-THASAN systemd[339]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+ LAPTOP-THASAN systemd[339]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+ LAPTOP-THASAN systemd[339]: Listening on keyboxd.socket - GnuPG public key management service.
+ LAPTOP-THASAN systemd[339]: Listening on pk-debconf-helper.socket - debconf communication socket.
+ LAPTOP-THASAN systemd[339]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+ LAPTOP-THASAN systemd[339]: Queued start job for default target default.target.
+ LAPTOP-THASAN systemd[339]: Reached target basic.target - Basic System.
+ LAPTOP-THASAN systemd[339]: Reached target default.target - Main User Target.
+ LAPTOP-THASAN systemd[339]: Reached target paths.target - Paths.
+ LAPTOP-THASAN systemd[339]: Reached target sockets.target - Sockets.
+ LAPTOP-THASAN systemd[339]: Reached target timers.target - Timers.
+ LAPTOP-THASAN systemd[339]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+ LAPTOP-THASAN systemd[339]: Starting dbus.socket - D-Bus User Message Bus Socket...
+ LAPTOP-THASAN systemd[339]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+ LAPTOP-THASAN systemd[339]: Starting wslg-session.service - WSLg user service...
+ LAPTOP-THASAN systemd[339]: Startup finished in 191ms.
+ LAPTOP-THASAN systemd[339]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/thasa/.launchpadlib/api.launchpad.net/cache).
+ LAPTOP-THASAN unknown: WSL (212) ERROR: CheckConnection: getaddrinfo() failed: -5
+ LAPTOP-THASAN wsl-pro-service[174]: DEBUG Building new daemon
+ LAPTOP-THASAN wsl-pro-service[174]: DEBUG Debug mode is enabled
+ LAPTOP-THASAN wsl-pro-service[174]: DEBUG Ready state sent to systemd
+ LAPTOP-THASAN wsl-pro-service[174]: DEBUG Updated systemd status to "Connecting"
+ LAPTOP-THASAN wsl-pro-service[174]: DEBUG Updated systemd status to "Not connected: waiting to retry"
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Daemon: connecting to Windows Agent
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Reconnecting to Windows host in 1 seconds
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Reconnecting to Windows host in 16 seconds
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Reconnecting to Windows host in 2 seconds
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Reconnecting to Windows host in 32 seconds
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Reconnecting to Windows host in 4 seconds
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Reconnecting to Windows host in 60 seconds
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Reconnecting to Windows host in 8 seconds
+ LAPTOP-THASAN wsl-pro-service[174]: INFO Starting WSL Pro Service version v0.1.4
+ LAPTOP-THASAN wsl-pro-service[174]: WARNING Daemon: could not connect to Windows Agent: could not get address: could not read agent port file "/mnt/c/Users/thasa/.ubuntupro/.address": open /mnt/c/Users/thasa/.ubuntupro/.address: no such file or directory

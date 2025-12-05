@@ -4,4 +4,10 @@ sed -E "s/^.*(.{2})$/\1/" e2.txt | sort | uniq -c | sort > sedded.txt;
 wc -l sedded.txt
 3. It's a bad idea to do sed s/REGEX/SUBSTITUTION/ input.txt > input.txt because the redirect operator > first opens input.txt as an empty file, and then using sed to read from input.txt causes you to read from an empty file and generate no output. Basically, you're just wiping your file.
  This should be a problem with any command that tries to write to a file after reading from it.
-If you want to do this with sed, use the -i flag which is used specifically for inserting.
+If you want to do this with sed, use the -i flag which is used specifically for inserting
+4. journalctl | grep "Startup" > startup.txt
+It seems like I get two different times every time I startup, one belonging to systemd[1] and the other belonging to systemd[NNN] where NNN represents some value in the 300s or 400s. systemd[1] has a much longer boot time, and I found that systemd[1] corresponds to the real system boot time while the other time belongs to the startup for my user session. So the max startup time is 1.931s, the median is (1.874+1.705)/2 = 1.790 seconds, and the average is 1.859s. 
+5. journalctl -b -2 | sed -E "s/^(Nov|Dec) [0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}//" | sort | uniq > flogs.txt;
+journalctl -b -1 | sed -E "s/^(Nov|Dec) [0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}//" | sort | uniq >> flogs.txt;
+journalctl -b 0 | sed -E "s/^(Nov|Dec) [0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}//" | sort | uniq >> flogs.txt;
+cat flogs.txt | sort | uniq -c | sort | sed -E "/^\s*3.*/d"

@@ -1,0 +1,9 @@
+Nov 07 21:59:06 LAPTOP-THASAN systemd[331]: Startup finished in 133ms.
+Nov 11 19:29:01 LAPTOP-THASAN systemd[1]: Startup finished in 1.931s.
+Nov 11 19:29:01 LAPTOP-THASAN systemd[410]: Startup finished in 205ms.
+Nov 13 22:52:07 LAPTOP-THASAN systemd[1]: Startup finished in 1.705s.
+Nov 13 22:52:07 LAPTOP-THASAN systemd[349]: Startup finished in 155ms.
+Nov 21 00:25:07 LAPTOP-THASAN systemd[1]: Startup finished in 1.874s.
+Nov 21 00:25:08 LAPTOP-THASAN systemd[405]: Startup finished in 190ms.
+Dec 05 11:37:54 LAPTOP-THASAN systemd[1]: Startup finished in 1.927s.
+Dec 05 11:37:55 LAPTOP-THASAN systemd[339]: Startup finished in 191ms.
